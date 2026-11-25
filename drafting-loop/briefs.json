@@ -46,5 +46,9 @@
   {
     "id": "apartment-viewing",
     "request": "Write a polite text message from a prospective tenant to a bilingual landlord. I would like to see the one-bedroom apartment on Saturday at 11 a.m. if that time is still open. I can bring proof of income and a reference letter from my current landlord. Please let me know whether the parking space is included in the rent. I also want to confirm that small pets are allowed. If Saturday does not work, Sunday afternoon is also fine for me. Please reply by Friday so I can arrange the day off."
+  },
+  {
+    "id": "potluck-signup",
+    "request": "Write a casual group-chat message from a neighbor organizing a potluck for bilingual neighbors. The potluck is next Sunday at 5 p.m. in the courtyard. Please add what you are bringing to the shared sign-up sheet so we do not end up with five salads. We already have enough drinks, so bring a main dish or dessert instead. Label anything with nuts because two kids have allergies. If it rains, we will move into the lobby. Bring your own plate and fork to cut down on trash."
   }
 ]

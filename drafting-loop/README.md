@@ -1,6 +1,6 @@
 # Drafting-loop track
 
-Fully AI-written messages with an English phrase of two or more words inside every sentence of a Japanese, Spanish, Mandarin, French, or Korean base. 130 drafts from 11 rounds, each labeled once by Pangram 4.1: 126 `AI`, 3 `Human`, 1 `Mixed`.
+Fully AI-written messages with an English phrase of two or more words inside every sentence of a Japanese, Spanish, Mandarin, French, or Korean base. 140 drafts from 12 rounds, each labeled once by Pangram 4.1: 136 `AI`, 3 `Human`, 1 `Mixed`.
 
 Each round wrote one brief in all five languages with two rule sets: the current rules and a candidate proposed by the previous round. Round 1 also had a no-rules baseline and two briefs. A candidate replaced the current rules only if it got more `Human` labels without losing structure passes. No candidate did.
 
