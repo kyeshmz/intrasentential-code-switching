@@ -216,5 +216,26 @@
         "AI": 5
       }
     }
+  },
+  {
+    "round": 11,
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "apartment-viewing"
+    ],
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "candidate": "rules/proposed-round-11.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 5
+      },
+      "candidate": {
+        "AI": 5
+      }
+    }
   }
 ]

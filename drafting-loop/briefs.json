@@ -42,5 +42,9 @@
   {
     "id": "gym-class-change",
     "request": "Write a casual group-chat message from a fitness instructor to bilingual class members. Thursday's 7 p.m. spin class moves to studio B because studio A's air conditioning is broken. The class still starts at 7 p.m. sharp. Bring your own water bottle, since the fountain in studio B is out of order. The bikes in studio B have different pedals, so wear regular sneakers instead of clip-in shoes. If you booked a bike online, your spot is saved. Message me by Wednesday night if you need to cancel."
+  },
+  {
+    "id": "apartment-viewing",
+    "request": "Write a polite text message from a prospective tenant to a bilingual landlord. I would like to see the one-bedroom apartment on Saturday at 11 a.m. if that time is still open. I can bring proof of income and a reference letter from my current landlord. Please let me know whether the parking space is included in the rent. I also want to confirm that small pets are allowed. If Saturday does not work, Sunday afternoon is also fine for me. Please reply by Friday so I can arrange the day off."
   }
 ]
