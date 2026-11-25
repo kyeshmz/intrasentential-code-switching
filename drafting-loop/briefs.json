@@ -126,5 +126,9 @@
   {
     "id": "airport-ride",
     "request": "Write a casual message from a friend to a bilingual friend about an airport pickup. My flight lands at 9:40 p.m. on Sunday at terminal 2. I only have a carry-on, so I will come out quickly. Please wait at the pickup area outside door 5 instead of parking. If the flight is late, I will text you when I land. I will pay for gas and the toll. If you cannot make it, no worries, I will take a taxi."
+  },
+  {
+    "id": "interview-schedule",
+    "request": "Write a polite message from a recruiter to a bilingual candidate. We would like to invite you to a second interview for the marketing role. It will be on Thursday at 1 p.m. by video call and will last about forty-five minutes. You will meet the team lead and one designer. Please prepare a short case study from a past project. The video link will arrive by email the day before. If Thursday does not work, reply with two other times this week."
   }
 ]
