@@ -1,0 +1,330 @@
+{
+  "open": [
+    {
+      "id": "open-01",
+      "sourceId": "ja-en-ai-technology",
+      "stratum": "ai",
+      "matrixLanguage": "ja",
+      "embeddedLanguage": "en",
+      "scenario": "technology",
+      "source": {
+        "kind": "model",
+        "id": "GPT-6.2 Sol (this session)",
+        "pairedWith": "jecs-bundle-technology",
+        "basis": "Original scripted Japanese sentences using the JECS technology brief and bundle format; no corpus sentences copied.",
+        "parts": [
+          {
+            "id": "ja-ai-technology-1",
+            "switchPhrase": "temporary access code"
+          },
+          {
+            "id": "ja-ai-technology-2",
+            "switchPhrase": "live status updates"
+          },
+          {
+            "id": "ja-ai-technology-3",
+            "switchPhrase": "offline mode"
+          },
+          {
+            "id": "ja-ai-technology-4",
+            "switchPhrase": "external power supply"
+          },
+          {
+            "id": "ja-ai-technology-5",
+            "switchPhrase": "automatic file backups"
+          },
+          {
+            "id": "ja-ai-technology-6",
+            "switchPhrase": "remote monitoring service"
+          },
+          {
+            "id": "ja-ai-technology-7",
+            "switchPhrase": "image recognition software"
+          }
+        ]
+      },
+      "text": "担当者がtemporary access codeを発行し、利用者にメールで送ります\n管理画面にlive status updatesが数秒ごとに表示されます\nこの端末ではoffline modeが使えない\n停電したため、予備のexternal power supplyに切り替えた\n設定画面でautomatic file backupsを有効にします\n来月からremote monitoring serviceを試します\n古い機種はimage recognition softwareを動かせません",
+      "sha256": "d80b572b2cd285fc91422403c4c99a1ddf2c24477ca96abd32ef1b361e8ac9b6"
+    },
+    {
+      "id": "open-02",
+      "sourceId": "jecs-bundle-technology",
+      "stratum": "human",
+      "matrixLanguage": "ja",
+      "embeddedLanguage": "en",
+      "scenario": "technology",
+      "source": {
+        "kind": "public-pre-llm",
+        "id": "JECS technology bundle",
+        "url": "https://sites.google.com/site/shinnosuketakamichi/research-topics/jecs_corpus",
+        "textIndex": "https://huggingface.co/datasets/thetaone-ai/jecs_ver1_cs_token",
+        "credit": "Shinnosuke Takamichi, Yoshifumi Nakano, Ai Morimatsu, Takaaki Saeki, and Hiroshi Saruwatari",
+        "year": 2022,
+        "license": "https://creativecommons.org/licenses/by/3.0/",
+        "changes": "Removed emphasis markers; joined independent parallel_text_cs lines with newlines.",
+        "parts": [
+          {
+            "id": "JECS0017",
+            "switchPhrase": "single sign-on environment"
+          },
+          {
+            "id": "JECS0033",
+            "switchPhrase": "real time"
+          },
+          {
+            "id": "JECS0034",
+            "switchPhrase": "extension system"
+          },
+          {
+            "id": "JECS0046",
+            "switchPhrase": "energy saving effect"
+          },
+          {
+            "id": "JECS0059",
+            "switchPhrase": "Memory backup system"
+          },
+          {
+            "id": "JECS0060",
+            "switchPhrase": "satellite Internet service"
+          },
+          {
+            "id": "JECS0069",
+            "switchPhrase": "software programs"
+          }
+        ]
+      },
+      "text": "われわれはsingle sign-on environmentをユーザに提供します\n自由にreal timeに活動が出来ます\nこの機種がextension systemに対応していない\n最大５０％のenergy saving effectが確認された\nこのシリーズに計測データのMemory backup systemを付加します\n来春より、satellite Internet serviceの提供を開始します\n多くのsoftware programsがこの形式のファイルを読めます",
+      "sha256": "4cd16249f167512e134fce3218fbff1472425bcaaf1f2c281a4ce8a7145f8b05"
+    },
+    {
+      "id": "open-03",
+      "sourceId": "jecs-bundle-work-commerce",
+      "stratum": "human",
+      "matrixLanguage": "ja",
+      "embeddedLanguage": "en",
+      "scenario": "work-commerce",
+      "source": {
+        "kind": "public-pre-llm",
+        "id": "JECS work and commerce bundle",
+        "url": "https://sites.google.com/site/shinnosuketakamichi/research-topics/jecs_corpus",
+        "textIndex": "https://huggingface.co/datasets/thetaone-ai/jecs_ver1_cs_token",
+        "credit": "Shinnosuke Takamichi, Yoshifumi Nakano, Ai Morimatsu, Takaaki Saeki, and Hiroshi Saruwatari",
+        "year": 2022,
+        "license": "https://creativecommons.org/licenses/by/3.0/",
+        "changes": "Removed emphasis markers; joined independent parallel_text_cs lines with newlines.",
+        "parts": [
+          {
+            "id": "JECS0007",
+            "switchPhrase": "veteran staff"
+          },
+          {
+            "id": "JECS0009",
+            "switchPhrase": "loan products"
+          },
+          {
+            "id": "JECS0018",
+            "switchPhrase": "employment website"
+          },
+          {
+            "id": "JECS0045",
+            "switchPhrase": "part-time job"
+          },
+          {
+            "id": "JECS0058",
+            "switchPhrase": "this theme"
+          },
+          {
+            "id": "JECS0063",
+            "switchPhrase": "large logistics companies"
+          },
+          {
+            "id": "JECS0112",
+            "switchPhrase": "custom-home builder"
+          }
+        ]
+      },
+      "text": "弊社のveteran staffがしっかりと貴方をサポートします\nそれが女性向けのloan productsを開発します\n９５．９％がemployment websiteを使った\n多くの学生が、part-time jobをします\n教授がthis themeで基調講演を行った\nヨーロッパのlarge logistics companiesにはイギリスの企業が多い\n彼がcustom-home builderで自分の家を建てない",
+      "sha256": "e3798844deb35b3a33f770a7b00931fd6dac9425f1234bedbfd421d734308b3c"
+    },
+    {
+      "id": "open-04",
+      "sourceId": "ja-en-ai-work-commerce",
+      "stratum": "ai",
+      "matrixLanguage": "ja",
+      "embeddedLanguage": "en",
+      "scenario": "work-commerce",
+      "source": {
+        "kind": "model",
+        "id": "GPT-6.2 Sol (this session)",
+        "pairedWith": "jecs-bundle-work-commerce",
+        "basis": "Original scripted Japanese sentences using the JECS work and commerce brief and bundle format; no corpus sentences copied.",
+        "parts": [
+          {
+            "id": "ja-ai-work-commerce-1",
+            "switchPhrase": "safety training"
+          },
+          {
+            "id": "ja-ai-work-commerce-2",
+            "switchPhrase": "bulk order discount"
+          },
+          {
+            "id": "ja-ai-work-commerce-3",
+            "switchPhrase": "job search site"
+          },
+          {
+            "id": "ja-ai-work-commerce-4",
+            "switchPhrase": "evening shift"
+          },
+          {
+            "id": "ja-ai-work-commerce-5",
+            "switchPhrase": "customer feedback"
+          },
+          {
+            "id": "ja-ai-work-commerce-6",
+            "switchPhrase": "small delivery companies"
+          },
+          {
+            "id": "ja-ai-work-commerce-7",
+            "switchPhrase": "rental agreement"
+          }
+        ]
+      },
+      "text": "新人向けのsafety trainingを本社で行います\n営業部がbulk order discountを長年の取引先に案内しました\n去年は回答者の半数がjob search siteを使った\n彼女が夏休みにevening shiftを担当します\n会議ではcustomer feedbackを先に取り上げます\n取引先がsmall delivery companiesに見積もりを頼みます\n彼は月末にrental agreementを確認します",
+      "sha256": "01b1482fa0d0e6541c6790131bd75164754bec5a77f50991fcd70365648ec144"
+    },
+    {
+      "id": "open-05",
+      "sourceId": "ja-en-ai-everyday",
+      "stratum": "ai",
+      "matrixLanguage": "ja",
+      "embeddedLanguage": "en",
+      "scenario": "everyday",
+      "source": {
+        "kind": "model",
+        "id": "GPT-6.2 Sol (this session)",
+        "pairedWith": "jecs-bundle-everyday",
+        "basis": "Original scripted Japanese sentences using the JECS everyday brief and bundle format; no corpus sentences copied.",
+        "parts": [
+          {
+            "id": "ja-ai-everyday-1",
+            "switchPhrase": "folding bike"
+          },
+          {
+            "id": "ja-ai-everyday-2",
+            "switchPhrase": "highlight reel"
+          },
+          {
+            "id": "ja-ai-everyday-3",
+            "switchPhrase": "grocery store"
+          },
+          {
+            "id": "ja-ai-everyday-4",
+            "switchPhrase": "chocolate sauce"
+          },
+          {
+            "id": "ja-ai-everyday-5",
+            "switchPhrase": "indoor play area"
+          },
+          {
+            "id": "ja-ai-everyday-6",
+            "switchPhrase": "spare batteries"
+          },
+          {
+            "id": "ja-ai-everyday-7",
+            "switchPhrase": "rain jacket"
+          }
+        ]
+      },
+      "text": "弟は雨が降らない日はfolding bikeで駅まで行きます\n試合の後にhighlight reelをスマホで探して二人で見た\n帰り道にgrocery storeで牛乳と食パンを買います\n彼女がケーキにchocolate sauceをかける\n受付の人がindoor play areaまでの行き方を教えてくれました\n姉がspare batteriesをかばんに入れた\n散歩の前にrain jacketを着ておきましょう",
+      "sha256": "1f45b80cd7b057ee870ed2d59b33e20d4383e5b67f5a8ed23c4d79166944b880"
+    },
+    {
+      "id": "open-06",
+      "sourceId": "jecs-bundle-everyday",
+      "stratum": "human",
+      "matrixLanguage": "ja",
+      "embeddedLanguage": "en",
+      "scenario": "everyday",
+      "source": {
+        "kind": "public-pre-llm",
+        "id": "JECS everyday bundle",
+        "url": "https://sites.google.com/site/shinnosuketakamichi/research-topics/jecs_corpus",
+        "textIndex": "https://huggingface.co/datasets/thetaone-ai/jecs_ver1_cs_token",
+        "credit": "Shinnosuke Takamichi, Yoshifumi Nakano, Ai Morimatsu, Takaaki Saeki, and Hiroshi Saruwatari",
+        "year": 2022,
+        "license": "https://creativecommons.org/licenses/by/3.0/",
+        "changes": "Removed emphasis markers; joined independent parallel_text_cs lines with newlines.",
+        "parts": [
+          {
+            "id": "JECS0003",
+            "switchPhrase": "instant camera"
+          },
+          {
+            "id": "JECS0011",
+            "switchPhrase": "playthrough time"
+          },
+          {
+            "id": "JECS0043",
+            "switchPhrase": "convenience store"
+          },
+          {
+            "id": "JECS0050",
+            "switchPhrase": "whipped cream"
+          },
+          {
+            "id": "JECS0053",
+            "switchPhrase": "catechin intake"
+          },
+          {
+            "id": "JECS0070",
+            "switchPhrase": "video camera"
+          },
+          {
+            "id": "JECS0288",
+            "switchPhrase": "pet food"
+          }
+        ]
+      },
+      "text": "彼がinstant cameraで日常の風景を撮る\nすでにplaythrough timeが１００時間を超えている\n彼が必ず近くのconvenience storeに寄る\n彼がはけでwhipped creamを全体に塗る\n先生が、catechin intakeに向いているタイプの人と向いていないタイプの人を紹介します\n彼がずっとvideo cameraで彼らの姿を追いました\n飼い主がしっかりpet foodの知識を身につけましょう",
+      "sha256": "512430a2f28bd5ecec701fbce8b0478fb8614ea5bd93accd5e2acf50e6730a82"
+    }
+  ],
+  "sleeping-dogs": [
+    {
+      "id": "sd-ref-en-yue-001",
+      "sourceId": "sd-ref-en-yue-001",
+      "stratum": "fan-reported",
+      "matrixLanguage": "en",
+      "embeddedLanguage": "yue",
+      "sourceUrl": "http://www.hellosaskatoon.ca/2012/08/hs-x-vg-sleeping-dogs.html",
+      "sourceType": "contemporary review quoting the game's subtitles/audio",
+      "verification": "partial",
+      "scene": "Meet Winston — walking to the Golden Koi (early game)",
+      "sha256": "20f7d934efb0501d2152ead16fd831b22db0886871559dab1817aca16f935392"
+    },
+    {
+      "id": "sd-ref-en-yue-002",
+      "sourceId": "sd-ref-en-yue-002",
+      "stratum": "fan-reported",
+      "matrixLanguage": "en",
+      "embeddedLanguage": "yue",
+      "sourceUrl": "https://tvtropes.org/pmwiki/pmwiki.php/Characters/SleepingDogs2012",
+      "sourceType": "fan wiki quote",
+      "verification": "secondary",
+      "scene": "Wheels of Fury DLC — second-to-last mission, chasing Dr. Tang's kidnappers",
+      "sha256": "b541437bea3345f0d8fe62bf08a83227685503f71510383e98cf90d172453b78"
+    },
+    {
+      "id": "sd-ref-en-yue-003",
+      "sourceId": "sd-ref-en-yue-003",
+      "stratum": "fan-reported",
+      "matrixLanguage": "en",
+      "embeddedLanguage": "yue",
+      "sourceUrl": "https://sleepingdogs.fandom.com/wiki/Big_Smile_Lee",
+      "sourceType": "fan wiki quote",
+      "verification": "secondary",
+      "scene": "The Election / final confrontation — Big Smile Lee's last words",
+      "sha256": "141e0d2e0ca884d4aaedc831d8b350b69d12a5bd5b413c4885fbbae050d2c8f6"
+    }
+  ]
+}

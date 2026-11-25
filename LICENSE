@@ -1,0 +1,19 @@
+Zero-Clause BSD (0BSD)
+
+Copyright (c) 2026 Intra-sentential Code-Switching Benchmark contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+Scope: original benchmark code, documentation, metadata and project-generated
+AI examples in this directory. JECS text is CC BY 3.0; see README.md and
+the credit, license and changes fields on each JECS case. This grant does
+not cover the Sleeping Dogs dialogue or any other third-party source.
