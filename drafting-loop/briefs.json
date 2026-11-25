@@ -269,5 +269,15 @@
     "id": "mailroom-lockers-replicate",
     "probe": "exact replicate of mailroom-lockers (3/5 Human, round 35)",
     "request": "Write a polite notice from a building manager to bilingual residents about the mailroom. We installed new package lockers in the mailroom. When a package arrives, you will get a text with a pickup code. Enter the code on the screen to open your locker. Pick up your package within three days, or it goes back to the front desk. Packages too large for a locker will still be held at the front desk. Do not share your pickup code with anyone else."
+  },
+  {
+    "id": "visitor-parking",
+    "probe": "new building-amenity notice in the laundry-card style",
+    "request": "Write a polite notice from a building manager to bilingual residents about visitor parking. From the 1st of next month, guests must use a visitor parking pass. Each unit gets ten free visitor parking passes a month in the resident app. A visitor parking pass is good for 24 hours. Enter your guest's license plate number when you make the pass. Cars in the visitor spots without a pass may be towed. Residents may not park in the visitor spots."
+  },
+  {
+    "id": "package-room-twin-replicate",
+    "probe": "exact replicate of package-room-twin (3/5 Human, round 34)",
+    "request": "Write a polite notice from a building manager to bilingual residents about the package room. The second locker bank is broken, and a repair technician comes next Tuesday. Until then, please pick up each package within one day. Close the locker door after every use. Do not leave packages on the package room floor overnight. The package room still closes at 10 p.m. If a locker does not open with your code, write your unit number on the form by the door."
   }
 ]
