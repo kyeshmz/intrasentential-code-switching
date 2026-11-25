@@ -985,5 +985,106 @@
         "AI": 5
       }
     }
+  },
+  {
+    "round": 29,
+    "mode": "arms",
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "laundry-room"
+    ],
+    "pooledThisRound": {
+      "incumbent": {
+        "rounds": 6,
+        "drafts": 30,
+        "structure": 30,
+        "human": 2,
+        "mixed": 1
+      },
+      "minus-1": {
+        "rounds": 6,
+        "drafts": 30,
+        "structure": 30,
+        "human": 3,
+        "mixed": 0
+      },
+      "minus-2": {
+        "rounds": 6,
+        "drafts": 30,
+        "structure": 30,
+        "human": 3,
+        "mixed": 0
+      },
+      "minus-3": {
+        "rounds": 6,
+        "drafts": 30,
+        "structure": 30,
+        "human": 2,
+        "mixed": 0
+      },
+      "minus-4": {
+        "rounds": 6,
+        "drafts": 30,
+        "structure": 30,
+        "human": 1,
+        "mixed": 0
+      },
+      "minus-5": {
+        "rounds": 6,
+        "drafts": 30,
+        "structure": 30,
+        "human": 1,
+        "mixed": 1
+      },
+      "casual": {
+        "rounds": 6,
+        "drafts": 30,
+        "structure": 30,
+        "human": 2,
+        "mixed": 0
+      }
+    },
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "minus-1": "rules/arm-minus-1.txt",
+      "minus-2": "rules/arm-minus-2.txt",
+      "minus-3": "rules/arm-minus-3.txt",
+      "minus-4": "rules/arm-minus-4.txt",
+      "minus-5": "rules/arm-minus-5.txt",
+      "casual": "rules/arm-casual.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "Human": 1,
+        "AI": 4
+      },
+      "minus-1": {
+        "Human": 3,
+        "AI": 2
+      },
+      "minus-2": {
+        "Human": 2,
+        "AI": 3
+      },
+      "minus-3": {
+        "Human": 2,
+        "AI": 3
+      },
+      "minus-4": {
+        "Human": 1,
+        "AI": 4
+      },
+      "minus-5": {
+        "Human": 1,
+        "AI": 3,
+        "Mixed": 1
+      },
+      "casual": {
+        "Human": 1,
+        "AI": 4
+      }
+    }
   }
 ]

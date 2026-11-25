@@ -114,5 +114,9 @@
   {
     "id": "coworking-desk",
     "request": "Write a friendly message from a coworking space manager to a bilingual member. Your fixed desk moves from the window row to desk 14 by the kitchen, starting Monday. We will move your monitor and drawer for you over the weekend. Please take any personal items off the old desk by Friday evening. Your access card will still work at the same doors. The printer code stays the same. If the new spot does not work for you, tell me and I will look for another one."
+  },
+  {
+    "id": "laundry-room",
+    "request": "Write a polite notice from a building manager to bilingual residents about the laundry room. The second dryer is broken, and a repair technician comes next Tuesday. Until then, please limit each dryer load to one hour. Clean the lint filter after every use. Do not leave laundry in the machines overnight. The laundry room still closes at 10 p.m. If a machine eats your coins, write your unit number on the form by the door."
   }
 ]
