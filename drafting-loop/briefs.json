@@ -359,5 +359,10 @@
     "id": "trip-form-admin-r2",
     "probe": "second draw: trip-permission (0/45 Human) rebuilt around a named form, a fee, and the school office",
     "request": "Write a polite message from a teacher to bilingual parents about a class trip. The class will visit the science museum next Friday. Please sign the field trip form and bring it to the school office with the $5 bus fee by Wednesday. Write your child's class number on the field trip form. Students need a packed lunch and a water bottle, since there is no cafeteria. The bus leaves school at 9 a.m. and comes back by 2:30 p.m. If you lose the field trip form, the school office has extra copies."
+  },
+  {
+    "id": "bike-tags",
+    "probe": "new how-a-facility-works notice, few time words; genre ablation",
+    "request": "Write a polite notice from a building manager to bilingual residents about the bike room. Starting next month, every bike in the bike room needs a bike tag. Pick up a free bike tag at the management office and bring your unit number. Each unit can register up to two bikes. Hang the bike tag on the handlebar where staff can see it. Bikes without a bike tag will be moved to the storage room. Electric bikes must be charged in your own apartment, not in the bike room."
   }
 ]

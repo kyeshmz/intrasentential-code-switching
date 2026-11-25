@@ -1939,5 +1939,102 @@
         "AI": 11
       }
     }
+  },
+  {
+    "round": 44,
+    "mode": "arms",
+    "phase": "genre-ablation",
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "bike-tags"
+    ],
+    "pooledThisRound": {
+      "incumbent": {
+        "rounds": 1,
+        "drafts": 5,
+        "structure": 5,
+        "human": 4,
+        "mixed": 1
+      },
+      "baseline": {
+        "rounds": 1,
+        "drafts": 5,
+        "structure": 5,
+        "human": 1,
+        "mixed": 2
+      },
+      "minus-1": {
+        "rounds": 1,
+        "drafts": 5,
+        "structure": 5,
+        "human": 5,
+        "mixed": 0
+      },
+      "minus-2": {
+        "rounds": 1,
+        "drafts": 5,
+        "structure": 5,
+        "human": 5,
+        "mixed": 0
+      },
+      "minus-3": {
+        "rounds": 1,
+        "drafts": 5,
+        "structure": 5,
+        "human": 5,
+        "mixed": 0
+      },
+      "minus-4": {
+        "rounds": 1,
+        "drafts": 5,
+        "structure": 5,
+        "human": 5,
+        "mixed": 0
+      },
+      "minus-5": {
+        "rounds": 1,
+        "drafts": 5,
+        "structure": 5,
+        "human": 5,
+        "mixed": 0
+      }
+    },
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "baseline": null,
+      "minus-1": "rules/arm-minus-1.txt",
+      "minus-2": "rules/arm-minus-2.txt",
+      "minus-3": "rules/arm-minus-3.txt",
+      "minus-4": "rules/arm-minus-4.txt",
+      "minus-5": "rules/arm-minus-5.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "Human": 4,
+        "Mixed": 1
+      },
+      "baseline": {
+        "Mixed": 2,
+        "AI": 2,
+        "Human": 1
+      },
+      "minus-1": {
+        "Human": 5
+      },
+      "minus-2": {
+        "Human": 5
+      },
+      "minus-3": {
+        "Human": 5
+      },
+      "minus-4": {
+        "Human": 5
+      },
+      "minus-5": {
+        "Human": 5
+      }
+    }
   }
 ]

@@ -101,6 +101,27 @@ Four rule sets each drafted 6 building-amenity notices in five languages: exact 
 
 **On these briefs, the rules take AI drafts from 7% `Human` to about 80%.** The three rule sets are within noise of each other. Every language reached at least 3 of 6 with every rule set. The same rules got 0 of 45 on the zero-hit replicates in rounds 36 to 38. So the effect needs both the rules and this kind of message.
 
-## Next: brief morph, rounds 42 and 43
+## Brief morph: rounds 42 and 43
 
-The current rules draft `storage-cage` (15 of 15 `Human` with rules) and versions that each remove one trait: office staff instead of residents, no English compound names, no price or sign-up or management office, a resident's group chat, and a resident asking the manager. Two zero-hit briefs get the traits added instead: `water-shutoff-admin` and `trip-form-admin`. Each version is drafted twice (the `-r2` ids), 10 drafts in all.
+The current rules drafted `storage-cage` and versions that each change one trait, 10 drafts per version.
+
+| Version | `Human` | `Mixed` |
+|---|---:|---:|
+| `storage-cage`, unchanged | 9 | 0 |
+| Office manager and staff instead of building manager and residents | 9 | 1 |
+| No English compound names (`a locked space`, `the office`) | 9 | 1 |
+| No price, sign-up, management office, or unit number | 7 | 2 |
+| A resident's casual group chat | 6 | 3 |
+| A resident asking the manager | 4 | 2 |
+| `water-shutoff` plus a pickup at the management office (was 1 of 15) | 4 | 0 |
+| `trip-permission` plus a named form, a fee, and the school office (was 0 of 45) | 0 | 1 |
+
+- **Not the setting or the English names.** The office version and the generic-name version both held at 9 of 10.
+- **The notice voice matters.** It fell when a resident wrote a chat (6) or a request (4).
+- **Admin details help but are not enough.** They lifted the water notice to 4 of 10 and did nothing for the school trip.
+
+Across all 56 briefs, a brief's `Human` rate under any rules falls as its time expressions rise: 42% with 0 or 1, 10% with 2 or 3, and 4% with 4 or 5 (Spearman ρ = −0.38). Some briefs with few times still got 0: potluck, hotel check-in, garage sale, wedding RSVP, and airport ride, which are all events or personal favors. Every brief that hits most of the time explains how a facility or system works: a storage cage, a laundry card, a visitor pass, a key fob, a locker.
+
+## Next: genre ablation, rounds 44 to 47
+
+Within that genre, the rules take drafts from 7% `Human` to about 80%. The leave-one-out ablation of rounds 24 to 33 could not separate the rules at a 2% base rate. At 80% it can. The current rules, no rules, and the five leave-one-out versions each draft four new how-it-works notices (`bike-tags`, `day-lockers`, `study-room-booking`, `gym-card`) set in a building, an office, a library, and a gym.
