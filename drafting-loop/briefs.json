@@ -86,5 +86,9 @@
   {
     "id": "client-call",
     "request": "Write a polite message from a project manager to a bilingual client. Tomorrow's 10 a.m. call needs to move because our designer is out sick. Could we meet on Thursday at 10 a.m. or Friday at 2 p.m. instead? The agenda stays the same: the homepage mockups and the launch timeline. I will send the updated mockups by end of day today so you can review them first. If neither time works, please suggest a slot that suits you. The video link from the original invitation will still work."
+  },
+  {
+    "id": "bakery-order",
+    "request": "Write a polite message from a customer to a bilingual bakery owner about a cake order. I would like to order a chocolate cake for twelve people for Saturday afternoon. Please write \"Happy 60th, Dad\" on top in white icing. One guest is allergic to peanuts, so the cake must not contain any nuts. I can pick it up at 2 p.m. If you need a deposit, I can pay it when I stop by on Thursday. Please let me know the total price before then."
   }
 ]
