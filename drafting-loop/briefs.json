@@ -102,5 +102,9 @@
   {
     "id": "wedding-rsvp",
     "request": "Write a warm message from a couple to bilingual friends about their wedding RSVP. Please reply to the invitation by the end of this month. Let us know if you will bring a plus-one, so we can plan the seating. Tell us about any food allergies, because the caterer needs a final list. The ceremony starts at 3 p.m., and guests should arrive by 2:30 p.m. There is free parking behind the venue. If you cannot come, we would still love a short message."
+  },
+  {
+    "id": "server-maintenance",
+    "request": "Write a short notice from an IT administrator to bilingual staff. The file server will be down for maintenance on Saturday from 10 p.m. to 2 a.m. Save and close any open files before you leave on Friday. Email and the chat app will keep working during the maintenance. Files saved to the server during that window may be lost. After the maintenance, restart your computer before reconnecting. Report any missing files to the help desk on Monday morning."
   }
 ]
