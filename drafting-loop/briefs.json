@@ -82,5 +82,9 @@
   {
     "id": "dog-sitter",
     "request": "Write a casual message from a dog owner to a bilingual friend who is watching the dog this weekend. Feed him one cup of dry food in the morning and one cup at night. His medicine is in the small blue bottle on the counter, one pill with dinner. Walk him twice a day, but keep him on the leash because he chases cats. He is not allowed on the couch, even if he looks sad. The vet's number is on the fridge in case anything happens. I will be back on Sunday around 6 p.m."
+  },
+  {
+    "id": "client-call",
+    "request": "Write a polite message from a project manager to a bilingual client. Tomorrow's 10 a.m. call needs to move because our designer is out sick. Could we meet on Thursday at 10 a.m. or Friday at 2 p.m. instead? The agenda stays the same: the homepage mockups and the launch timeline. I will send the updated mockups by end of day today so you can review them first. If neither time works, please suggest a slot that suits you. The video link from the original invitation will still work."
   }
 ]
