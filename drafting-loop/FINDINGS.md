@@ -54,6 +54,26 @@ A label measures the whole text, so these results show how much human text dilut
 
 Every `Human` or `Mixed` text was sent again in a later batch. All 88 rechecks returned the same label. A label is a fixed function of the text, so the variation comes from drafting, not from scoring.
 
-## Next: brief probe, rounds 34 and 35
+## Brief probe: rounds 34 and 35
 
-The rules stay fixed, and the brief varies: an exact laundry-room replicate, a water-shutoff replicate as a control, the same laundry facts sent as a resident's group chat, a laundry room with different facts, three twins with laundry-room's sentence structure set in a building gym, a package room, and an office kitchen, six other building-manager notices about shared spaces, and a resident reporting the dryer to the manager. If the twins keep the effect, it comes from the message's shape and can become a rule. If only laundry-room keeps it, it is specific to that topic and no writing rule found here will move the label.
+The rules stayed fixed at the current rules, and 14 briefs each changed one thing. Each brief's `probe` field in [briefs.json](briefs.json) says what.
+
+- **19 of 69 structure-passing drafts got `Human` (28%)**, against about 5% for the current rules in rounds 1 to 33. The generator setting, draft length, and English share did not change.
+- **The laundry-room effect did not replicate.** The exact replicate got 1 of 5, and its Japanese draft got `AI`. The water-shutoff control got 1 of 5, against 0 of 10 before.
+- **The highest were** `laundry-card` (5 of 5, including Spanish and French), `package-room-twin` and `mailroom-lockers` (3 of 5 each). `trash-room`, `rooftop-grill`, and `quiet-hours` got 0 of 5.
+
+## Repeated English terms
+
+The laundry-card drafts used `laundry card` in nearly every sentence. Across all 670 drafts, a draft is more likely to get `Human` the more lines contain its most frequent English term:
+
+| Lines with the draft's most frequent English term | `Human` |
+|---|---:|
+| 1 | 8 / 429 (1.9%) |
+| 2 | 16 / 164 (9.8%) |
+| 3 or more | 17 / 77 (22.1%) |
+
+The gap holds within a brief. In briefs that had at least one `Human` draft, the `Human` drafts repeated their top term on 2.2 lines on average, and the `AI` drafts on 1.4. This is a correlation, measured with a simple span extractor.
+
+## Next: anchor-term test, rounds 36 to 38
+
+[rules/arm-anchor.txt](rules/arm-anchor.txt) changes only rule 4 of the current rules: pick the one English term for the main thing in the message and reuse it unchanged in at least three sentences. Both rule sets draft exact replicates of 9 briefs that earlier got no `Human` or `Mixed` label. If the current rules now hit far above 0 on those briefs, something in the generator changed over time. If they stay near 0, the brief-probe briefs were the cause. The anchor arm shows whether the rule moves briefs that never worked.

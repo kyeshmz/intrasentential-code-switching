@@ -1542,5 +1542,46 @@
         "Mixed": 1
       }
     }
+  },
+  {
+    "round": 36,
+    "mode": "arms",
+    "phase": "anchor-term",
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "wedding-rsvp-replicate",
+      "trip-permission-replicate",
+      "coworking-desk-replicate"
+    ],
+    "pooledThisRound": {
+      "incumbent": {
+        "rounds": 1,
+        "drafts": 15,
+        "structure": 15,
+        "human": 0,
+        "mixed": 0
+      },
+      "anchor": {
+        "rounds": 1,
+        "drafts": 15,
+        "structure": 15,
+        "human": 0,
+        "mixed": 0
+      }
+    },
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "anchor": "rules/arm-anchor.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 15
+      },
+      "anchor": {
+        "AI": 15
+      }
+    }
   }
 ]

@@ -204,5 +204,20 @@
     "id": "dryer-report",
     "probe": "laundry-room topic, sender reversed (resident to manager)",
     "request": "Write a polite message from a resident to the bilingual building manager about the laundry room. The second dryer has stopped heating, and clothes come out wet after an hour. It also took four quarters this morning without starting. My unit number is 4B. Could you let me know when it will be fixed? Until then, is it OK to use the dryer in the other building? I can show the technician which machine it is if that helps."
+  },
+  {
+    "id": "wedding-rsvp-replicate",
+    "probe": "exact replicate of wedding-rsvp (0 of 35 Human or Mixed, round 25); drift check",
+    "request": "Write a warm message from a couple to bilingual friends about their wedding RSVP. Please reply to the invitation by the end of this month. Let us know if you will bring a plus-one, so we can plan the seating. Tell us about any food allergies, because the caterer needs a final list. The ceremony starts at 3 p.m., and guests should arrive by 2:30 p.m. There is free parking behind the venue. If you cannot come, we would still love a short message."
+  },
+  {
+    "id": "trip-permission-replicate",
+    "probe": "exact replicate of trip-permission (0 of 35 Human or Mixed, round 27); drift check",
+    "request": "Write a polite message from a teacher to bilingual parents about a class trip. The class will visit the science museum next Friday. Please sign and return the permission slip by Wednesday. Students need a packed lunch and a water bottle, since there is no cafeteria. The bus leaves school at 9 a.m. and comes back by 2:30 p.m. Students should wear the school T-shirt so we can spot them easily. If you can join as a volunteer, please let me know by Monday."
+  },
+  {
+    "id": "coworking-desk-replicate",
+    "probe": "exact replicate of coworking-desk (0 of 35 Human or Mixed, round 28); drift check",
+    "request": "Write a friendly message from a coworking space manager to a bilingual member. Your fixed desk moves from the window row to desk 14 by the kitchen, starting Monday. We will move your monitor and drawer for you over the weekend. Please take any personal items off the old desk by Friday evening. Your access card will still work at the same doors. The printer code stays the same. If the new spot does not work for you, tell me and I will look for another one."
   }
 ]
