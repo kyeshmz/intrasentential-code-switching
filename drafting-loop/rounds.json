@@ -132,5 +132,68 @@
         "AI": 5
       }
     }
+  },
+  {
+    "round": 7,
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "release-delay"
+    ],
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "candidate": "rules/proposed-round-7.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 5
+      },
+      "candidate": {
+        "AI": 5
+      }
+    }
+  },
+  {
+    "round": 8,
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "clinic-reschedule"
+    ],
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "candidate": "rules/proposed-human-derived.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 5
+      },
+      "candidate": {
+        "AI": 5
+      }
+    }
+  },
+  {
+    "round": 9,
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "rehearsal-move"
+    ],
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "candidate": "rules/proposed-round-9.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 5
+      },
+      "candidate": {
+        "AI": 5
+      }
+    }
   }
 ]

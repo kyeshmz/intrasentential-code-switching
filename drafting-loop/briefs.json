@@ -26,5 +26,17 @@
   {
     "id": "plant-sitting",
     "request": "Write a casual message from someone going away for a week to the bilingual friend who will water their plants. The spare key is under the blue pot by the door. Water the big fern on Monday and Thursday, about one cup each time. The cactus on the windowsill does not need any water this week. If the fern's leaves turn yellow, move it away from the window. Please bring in any packages so they are not left outside. Help yourself to the snacks in the kitchen cupboard."
+  },
+  {
+    "id": "release-delay",
+    "request": "Write a short message from a software engineer to a bilingual teammate about tonight's release. The release moves from 6 p.m. to 9 p.m. because the database migration failed on the staging server. I rolled back the migration on staging and opened a ticket with the error log. Please do not merge anything into the main branch until the release is out. If the migration passes on staging by 8 p.m., we go ahead at 9 p.m. If it fails again, we postpone the release to tomorrow morning. I will post the final decision in the team channel by 8:15 p.m."
+  },
+  {
+    "id": "clinic-reschedule",
+    "request": "Write a polite message from a dental clinic receptionist to a bilingual patient. The patient's cleaning appointment on Tuesday at 10 a.m. has to move because the hygienist is sick. The clinic can offer Thursday at 2 p.m. or next Monday at 9 a.m. Please reply with the time you prefer by tomorrow evening. If neither time works, call the front desk to find another day. The patient does not need to fill in the health form again. Please bring the new insurance card mentioned at the last visit."
+  },
+  {
+    "id": "rehearsal-move",
+    "request": "Write a casual group-chat message from a band member to bilingual bandmates. Saturday's rehearsal moves from the usual studio to the drummer's garage because the studio double-booked us. The start time is still 4 p.m. Bring your own amp cables, since the garage has no spares. We will run the three new songs first, then the full set for next week's gig. Street parking is free after 3 p.m. If you cannot make it, tell us by Friday night so we can plan the set without you."
   }
 ]
