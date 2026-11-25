@@ -1,0 +1,4 @@
+1. Start with what the reader needs to know in {language}. Put actions in an order that makes sense. Introduce a file, place, or person before referring back to it.
+2. Keep the meaning exact. Preserve timing, quantities, conditions, and what each term refers to. Translate part of an English term only if the remainder is still a natural phrase and the instruction is unchanged.
+3. Match the reader's relationship to the writer. Start with the task, skip filler, and repeat a useful term rather than renaming the same thing. Do not invent details or add fake mistakes to sound casual.
+4. Before returning the draft, read it as the recipient. Check that the action and conditions are clear and that every sentence has a natural switch. If an English phrase sounds forced, move the switch rather than adding a throwaway phrase.

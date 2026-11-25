@@ -94,5 +94,9 @@
   {
     "id": "garage-sale",
     "request": "Write a casual group-chat message from a neighbor to bilingual neighbors about a shared garage sale. The sale is this Saturday from 8 a.m. to 1 p.m. on our street. Put a price sticker on each item before you bring it out. Tables go on the sidewalk, but leave the driveways clear for cars. Anything left at 1 p.m. goes to the donation truck that comes at 2 p.m. Bring small bills and coins for change. Reply here if you want me to add your house to the map we are posting."
+  },
+  {
+    "id": "guitar-lesson",
+    "request": "Write a friendly message from a guitar teacher to a bilingual student. Next week's lesson moves from Tuesday to Wednesday at the same time, 5 p.m. Please practice the two chord changes we worked on, at least ten minutes a day. Bring the songbook, because we will start the second song. Change your strings before the lesson if they still sound dull. If you cannot make Wednesday, tell me by Monday so I can offer the slot to someone else. The lesson fee stays the same."
   }
 ]
