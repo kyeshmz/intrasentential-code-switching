@@ -50,5 +50,9 @@
   {
     "id": "potluck-signup",
     "request": "Write a casual group-chat message from a neighbor organizing a potluck for bilingual neighbors. The potluck is next Sunday at 5 p.m. in the courtyard. Please add what you are bringing to the shared sign-up sheet so we do not end up with five salads. We already have enough drinks, so bring a main dish or dessert instead. Label anything with nuts because two kids have allergies. If it rains, we will move into the lobby. Bring your own plate and fork to cut down on trash."
+  },
+  {
+    "id": "library-return",
+    "request": "Write a polite notice from a public librarian to bilingual library members. The return box outside the main entrance will be closed from Monday to Wednesday for repairs. During that time, return books at the front desk during opening hours. No late fees will be charged for items due on those three days. Laptops and tablets must still be returned in person to staff. The book drop at the north branch is open as usual. Questions can go to the front desk by phone or email."
   }
 ]
