@@ -58,5 +58,9 @@
   {
     "id": "package-roommate",
     "request": "Write a casual message from someone at work to their bilingual roommate about a package. A delivery is arriving today between 2 and 4 p.m., and it needs a signature. It is a replacement router, so please do not leave it in the hallway. If you are not home, the driver will leave a slip and take it back to the depot. Put the old router by the front door so I can return it tomorrow. Do not unplug the old one until the new one is set up. I will be home around 7 p.m. and will set it up then."
+  },
+  {
+    "id": "volunteer-shift",
+    "request": "Write a friendly message from a food bank coordinator to bilingual volunteers. This Saturday's shift starts at 8 a.m. instead of 9 a.m. because a large delivery is coming early. Please park behind the building, not in the front lot. Wear closed-toe shoes, since we will be moving heavy boxes. Gloves and aprons will be on the table by the loading door. The shift still ends at noon. If you can only come at 9 a.m., reply here so I can plan the sorting teams."
   }
 ]

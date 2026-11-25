@@ -302,5 +302,26 @@
         "Mixed": 2
       }
     }
+  },
+  {
+    "round": 15,
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "volunteer-shift"
+    ],
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "candidate": "rules/proposed-round-15.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 5
+      },
+      "candidate": {
+        "AI": 5
+      }
+    }
   }
 ]
