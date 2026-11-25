@@ -259,5 +259,15 @@
     "id": "laundry-card-replicate",
     "probe": "exact replicate of laundry-card (5/5 Human, round 34)",
     "request": "Write a polite notice from a building manager to bilingual residents about the laundry room. Starting on the 1st of next month, the washers and dryers will take a laundry card instead of coins. Pick up a free card at the management office and bring your unit number. Add money to the card at the machine next to the laundry room door. A wash costs $2 and a dry costs $1.50. Money left on the card does not expire. If you lose your card, a new one costs $5."
+  },
+  {
+    "id": "key-fob",
+    "probe": "new building-amenity notice in the laundry-card style",
+    "request": "Write a polite notice from a building manager to bilingual residents about key fobs. Starting Monday, the front door and the garage will open only with the new key fob, not the old metal key. Pick up two free key fobs per unit at the management office, and bring your unit number and a photo ID. An extra key fob costs $20. If you lose a key fob, report it right away so we can turn it off. The old metal key still opens your own apartment door."
+  },
+  {
+    "id": "mailroom-lockers-replicate",
+    "probe": "exact replicate of mailroom-lockers (3/5 Human, round 35)",
+    "request": "Write a polite notice from a building manager to bilingual residents about the mailroom. We installed new package lockers in the mailroom. When a package arrives, you will get a text with a pickup code. Enter the code on the screen to open your locker. Pick up your package within three days, or it goes back to the front desk. Packages too large for a locker will still be held at the front desk. Do not share your pickup code with anyone else."
   }
 ]

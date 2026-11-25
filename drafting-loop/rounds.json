@@ -1731,5 +1731,71 @@
         "AI": 1
       }
     }
+  },
+  {
+    "round": 40,
+    "mode": "arms",
+    "phase": "genre-arms",
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "key-fob",
+      "mailroom-lockers-replicate"
+    ],
+    "pooledThisRound": {
+      "incumbent": {
+        "rounds": 2,
+        "drafts": 20,
+        "structure": 20,
+        "human": 15,
+        "mixed": 0
+      },
+      "baseline": {
+        "rounds": 2,
+        "drafts": 20,
+        "structure": 20,
+        "human": 0,
+        "mixed": 0
+      },
+      "anchor": {
+        "rounds": 2,
+        "drafts": 20,
+        "structure": 20,
+        "human": 17,
+        "mixed": 1
+      },
+      "casual": {
+        "rounds": 2,
+        "drafts": 20,
+        "structure": 20,
+        "human": 15,
+        "mixed": 0
+      }
+    },
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "baseline": null,
+      "anchor": "rules/arm-anchor.txt",
+      "casual": "rules/arm-casual.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "Human": 6,
+        "AI": 4
+      },
+      "baseline": {
+        "AI": 10
+      },
+      "anchor": {
+        "Human": 8,
+        "Mixed": 1,
+        "AI": 1
+      },
+      "casual": {
+        "AI": 4,
+        "Human": 6
+      }
+    }
   }
 ]
