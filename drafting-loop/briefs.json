@@ -122,5 +122,9 @@
   {
     "id": "haircut-reschedule",
     "request": "Write a casual text from a hairdresser to a bilingual regular customer. I have to move your Thursday 4 p.m. haircut because I have a family event. I can do Friday at 4 p.m. or Saturday at 11 a.m. instead. If you still want the color touch-up, Saturday works better because it takes longer. Please come with dry hair, as usual. Text me back which time you prefer. Sorry for the change, and thanks for being flexible."
+  },
+  {
+    "id": "airport-ride",
+    "request": "Write a casual message from a friend to a bilingual friend about an airport pickup. My flight lands at 9:40 p.m. on Sunday at terminal 2. I only have a carry-on, so I will come out quickly. Please wait at the pickup area outside door 5 instead of parking. If the flight is late, I will text you when I land. I will pay for gas and the toll. If you cannot make it, no worries, I will take a taxi."
   }
 ]

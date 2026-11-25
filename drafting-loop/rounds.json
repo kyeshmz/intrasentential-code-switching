@@ -1180,5 +1180,98 @@
         "Human": 1
       }
     }
+  },
+  {
+    "round": 31,
+    "mode": "arms",
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "airport-ride"
+    ],
+    "pooledThisRound": {
+      "incumbent": {
+        "rounds": 8,
+        "drafts": 40,
+        "structure": 40,
+        "human": 2,
+        "mixed": 1
+      },
+      "minus-1": {
+        "rounds": 8,
+        "drafts": 40,
+        "structure": 40,
+        "human": 3,
+        "mixed": 0
+      },
+      "minus-2": {
+        "rounds": 8,
+        "drafts": 40,
+        "structure": 39,
+        "human": 3,
+        "mixed": 0
+      },
+      "minus-3": {
+        "rounds": 8,
+        "drafts": 40,
+        "structure": 40,
+        "human": 2,
+        "mixed": 0
+      },
+      "minus-4": {
+        "rounds": 8,
+        "drafts": 40,
+        "structure": 40,
+        "human": 1,
+        "mixed": 0
+      },
+      "minus-5": {
+        "rounds": 8,
+        "drafts": 40,
+        "structure": 40,
+        "human": 1,
+        "mixed": 1
+      },
+      "casual": {
+        "rounds": 8,
+        "drafts": 40,
+        "structure": 40,
+        "human": 3,
+        "mixed": 0
+      }
+    },
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "minus-1": "rules/arm-minus-1.txt",
+      "minus-2": "rules/arm-minus-2.txt",
+      "minus-3": "rules/arm-minus-3.txt",
+      "minus-4": "rules/arm-minus-4.txt",
+      "minus-5": "rules/arm-minus-5.txt",
+      "casual": "rules/arm-casual.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 5
+      },
+      "minus-1": {
+        "AI": 5
+      },
+      "minus-2": {
+        "AI": 5
+      },
+      "minus-3": {
+        "AI": 5
+      },
+      "minus-4": {
+        "AI": 5
+      },
+      "minus-5": {
+        "AI": 5
+      },
+      "casual": {
+        "AI": 5
+      }
+    }
   }
 ]
