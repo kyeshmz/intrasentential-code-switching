@@ -118,5 +118,9 @@
   {
     "id": "laundry-room",
     "request": "Write a polite notice from a building manager to bilingual residents about the laundry room. The second dryer is broken, and a repair technician comes next Tuesday. Until then, please limit each dryer load to one hour. Clean the lint filter after every use. Do not leave laundry in the machines overnight. The laundry room still closes at 10 p.m. If a machine eats your coins, write your unit number on the form by the door."
+  },
+  {
+    "id": "haircut-reschedule",
+    "request": "Write a casual text from a hairdresser to a bilingual regular customer. I have to move your Thursday 4 p.m. haircut because I have a family event. I can do Friday at 4 p.m. or Saturday at 11 a.m. instead. If you still want the color touch-up, Saturday works better because it takes longer. Please come with dry hair, as usual. Text me back which time you prefer. Sorry for the change, and thanks for being flexible."
   }
 ]
