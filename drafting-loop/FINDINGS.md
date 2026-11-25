@@ -88,6 +88,19 @@ The gap holds within a brief. In briefs that had at least one `Human` draft, the
 
 So far the subject of the message is the only thing that has moved the label: building-amenity notices with a central card, locker, code, or permit.
 
-## Next: genre arms, rounds 39 to 41
+## Genre arms: rounds 39 to 41
 
-Inside that genre the current rules hit about 28%, so rule differences can show up in far fewer drafts than at 2%. Four rule sets (current, no rules, anchor, casual) each draft 6 briefs: exact replicates of `laundry-card`, `mailroom-lockers`, and `package-room-twin`, plus 3 new notices in the same style (`storage-cage`, `key-fob`, `visitor-parking`). This shows whether the genre rate holds, and whether any rule set pushes it higher or the rules do not matter at all.
+Four rule sets each drafted 6 building-amenity notices in five languages: exact replicates of `laundry-card`, `mailroom-lockers`, and `package-room-twin`, plus 3 new notices in the same style (`storage-cage`, `key-fob`, `visitor-parking`).
+
+| Rules | `Human` |
+|---|---:|
+| Anchor-term rule | 25 / 30 (83%) |
+| Current rules | 24 / 30 (80%) |
+| Casual register added | 22 / 30 (73%) |
+| No drafting rules | 2 / 30 (7%) |
+
+**On these briefs, the rules take AI drafts from 7% `Human` to about 80%.** The three rule sets are within noise of each other. Every language reached at least 3 of 6 with every rule set. The same rules got 0 of 45 on the zero-hit replicates in rounds 36 to 38. So the effect needs both the rules and this kind of message.
+
+## Next: brief morph, rounds 42 and 43
+
+The current rules draft `storage-cage` (15 of 15 `Human` with rules) and versions that each remove one trait: office staff instead of residents, no English compound names, no price or sign-up or management office, a resident's group chat, and a resident asking the manager. Two zero-hit briefs get the traits added instead: `water-shutoff-admin` and `trip-form-admin`. Each version is drafted twice (the `-r2` ids), 10 drafts in all.

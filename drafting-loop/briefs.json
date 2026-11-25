@@ -279,5 +279,45 @@
     "id": "package-room-twin-replicate",
     "probe": "exact replicate of package-room-twin (3/5 Human, round 34)",
     "request": "Write a polite notice from a building manager to bilingual residents about the package room. The second locker bank is broken, and a repair technician comes next Tuesday. Until then, please pick up each package within one day. Close the locker door after every use. Do not leave packages on the package room floor overnight. The package room still closes at 10 p.m. If a locker does not open with your code, write your unit number on the form by the door."
+  },
+  {
+    "id": "storage-cage-control",
+    "probe": "exact replicate of storage-cage (15/15 Human with rules); control",
+    "request": "Write a polite notice from a building manager to bilingual residents about the storage room. Starting next month, each unit can rent one storage cage in the basement storage room. A storage cage costs $25 a month, paid together with your rent. Sign up at the management office and bring your unit number. Each storage cage needs your own padlock. Do not store paint, gas cans, or anything else that can catch fire. Storage cages are assigned in the order people sign up."
+  },
+  {
+    "id": "storage-office",
+    "probe": "storage-cage with office manager and staff instead of building manager and residents",
+    "request": "Write a polite notice from an office manager to bilingual staff about the storage room. Starting next month, each team can rent one storage cage in the basement storage room. A storage cage costs $25 a month, charged to your team budget. Sign up at the front desk and bring your employee ID. Each storage cage needs your own padlock. Do not store paint, gas cans, or anything else that can catch fire. Storage cages are assigned in the order teams sign up."
+  },
+  {
+    "id": "storage-generic",
+    "probe": "storage-cage without English compound names (a locked space, the office, your apartment)",
+    "request": "Write a polite notice from a building manager to bilingual residents about the basement. Starting next month, each apartment can rent one locked space in the basement. A space costs $25 a month, paid together with your rent. Sign up at the office and tell us your apartment. Each space needs your own lock. Do not store paint, gas cans, or anything else that can catch fire. Spaces are given out in the order people sign up."
+  },
+  {
+    "id": "storage-no-admin",
+    "probe": "storage-cage without price, sign-up, management office, or unit number",
+    "request": "Write a polite notice from a building manager to bilingual residents about the storage room. Each unit has one storage cage in the basement storage room. Each storage cage needs your own padlock. Do not store paint, gas cans, or anything else that can catch fire. Keep the aisle between the storage cages clear. Write your name on every box. The storage room is open from 7 a.m. to 10 p.m."
+  },
+  {
+    "id": "storage-chat",
+    "probe": "storage-cage facts, sent by a resident as a casual group chat",
+    "request": "Write a casual group-chat message from a resident to bilingual neighbors about the storage room. Starting next month, each unit can rent one storage cage in the basement storage room. A storage cage costs $25 a month, paid together with your rent. Sign up at the management office and bring your unit number. Each storage cage needs your own padlock. Don't store paint, gas cans, or anything else that can catch fire. Storage cages go in the order people sign up."
+  },
+  {
+    "id": "storage-ask",
+    "probe": "storage-cage topic, sender reversed (resident asks the manager)",
+    "request": "Write a polite message from a resident to the bilingual building manager about the storage room. I would like to rent one storage cage in the basement storage room starting next month. I understand a storage cage costs $25 a month, paid together with the rent. My unit number is 4B. I will bring my own padlock. Could you tell me whether a storage cage is still available? I can come to the management office to sign up on Thursday."
+  },
+  {
+    "id": "water-shutoff-admin",
+    "probe": "water-shutoff (1/15 Human) with a pickup at the management office and unit number added",
+    "request": "Write a polite notice from the building manager to bilingual tenants. The water will be shut off on Thursday from 9 a.m. to noon so a plumber can replace the main valve in the basement. Each unit can pick up two free water jugs at the management office; please bring your unit number. Do not run the dishwasher or washing machine while the water is off. When the water comes back, it may look cloudy for a few minutes, so let the tap run until it clears. If the water is still cloudy after ten minutes, call the management office. The laundry room will reopen at 1 p.m."
+  },
+  {
+    "id": "trip-form-admin",
+    "probe": "trip-permission (0/45 Human) rebuilt around a named form, a fee, and the school office",
+    "request": "Write a polite message from a teacher to bilingual parents about a class trip. The class will visit the science museum next Friday. Please sign the field trip form and bring it to the school office with the $5 bus fee by Wednesday. Write your child's class number on the field trip form. Students need a packed lunch and a water bottle, since there is no cafeteria. The bus leaves school at 9 a.m. and comes back by 2:30 p.m. If you lose the field trip form, the school office has extra copies."
   }
 ]

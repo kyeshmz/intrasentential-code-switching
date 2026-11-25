@@ -1865,5 +1865,42 @@
         "AI": 2
       }
     }
+  },
+  {
+    "round": 42,
+    "mode": "arms",
+    "phase": "brief-morph",
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "storage-cage-control",
+      "storage-office",
+      "storage-generic",
+      "storage-no-admin",
+      "storage-chat",
+      "storage-ask",
+      "water-shutoff-admin",
+      "trip-form-admin"
+    ],
+    "pooledThisRound": {
+      "incumbent": {
+        "rounds": 1,
+        "drafts": 40,
+        "structure": 40,
+        "human": 23,
+        "mixed": 6
+      }
+    },
+    "variants": {
+      "incumbent": "rules/current.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 11,
+        "Human": 23,
+        "Mixed": 6
+      }
+    }
   }
 ]
