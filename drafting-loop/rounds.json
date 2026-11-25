@@ -323,5 +323,27 @@
         "AI": 5
       }
     }
+  },
+  {
+    "round": 16,
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "bike-shop-pickup"
+    ],
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "candidate": "rules/proposed-round-16.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 4,
+        "Human": 1
+      },
+      "candidate": {
+        "AI": 5
+      }
+    }
   }
 ]

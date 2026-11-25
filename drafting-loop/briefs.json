@@ -62,5 +62,9 @@
   {
     "id": "volunteer-shift",
     "request": "Write a friendly message from a food bank coordinator to bilingual volunteers. This Saturday's shift starts at 8 a.m. instead of 9 a.m. because a large delivery is coming early. Please park behind the building, not in the front lot. Wear closed-toe shoes, since we will be moving heavy boxes. Gloves and aprons will be on the table by the loading door. The shift still ends at noon. If you can only come at 9 a.m., reply here so I can plan the sorting teams."
+  },
+  {
+    "id": "bike-shop-pickup",
+    "request": "Write a polite message from a bicycle repair shop to a bilingual customer. The customer's bike is ready for pickup after the brake repair. We also replaced the rear tire because it had a deep cut, as discussed on the phone. The total is the same as the estimate we gave. The shop is open until 6 p.m. on weekdays and until 4 p.m. on Saturday. Please bring the claim ticket when you come. If you cannot pick it up within a week, let us know so we can keep it in storage."
   }
 ]
