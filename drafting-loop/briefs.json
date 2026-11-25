@@ -130,5 +130,9 @@
   {
     "id": "interview-schedule",
     "request": "Write a polite message from a recruiter to a bilingual candidate. We would like to invite you to a second interview for the marketing role. It will be on Thursday at 1 p.m. by video call and will last about forty-five minutes. You will meet the team lead and one designer. Please prepare a short case study from a past project. The video link will arrive by email the day before. If Thursday does not work, reply with two other times this week."
+  },
+  {
+    "id": "park-cleanup",
+    "request": "Write a friendly group message from a volunteer to bilingual neighbors about a park cleanup. The cleanup is on Sunday from 9 a.m. to noon at the east entrance of the park. Gloves and trash bags will be provided at the sign-in table. Wear long pants because of the bushes near the pond. Do not pick up needles or broken glass; mark them with the orange flags instead. Kids are welcome if an adult stays with them. We will share coffee and snacks at the end."
   }
 ]

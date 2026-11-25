@@ -1366,5 +1366,99 @@
         "AI": 5
       }
     }
+  },
+  {
+    "round": 33,
+    "mode": "arms",
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "park-cleanup"
+    ],
+    "pooledThisRound": {
+      "incumbent": {
+        "rounds": 10,
+        "drafts": 50,
+        "structure": 50,
+        "human": 2,
+        "mixed": 1
+      },
+      "minus-1": {
+        "rounds": 10,
+        "drafts": 50,
+        "structure": 50,
+        "human": 3,
+        "mixed": 0
+      },
+      "minus-2": {
+        "rounds": 10,
+        "drafts": 50,
+        "structure": 49,
+        "human": 3,
+        "mixed": 0
+      },
+      "minus-3": {
+        "rounds": 10,
+        "drafts": 50,
+        "structure": 50,
+        "human": 2,
+        "mixed": 0
+      },
+      "minus-4": {
+        "rounds": 10,
+        "drafts": 50,
+        "structure": 49,
+        "human": 1,
+        "mixed": 0
+      },
+      "minus-5": {
+        "rounds": 10,
+        "drafts": 50,
+        "structure": 50,
+        "human": 1,
+        "mixed": 2
+      },
+      "casual": {
+        "rounds": 10,
+        "drafts": 50,
+        "structure": 50,
+        "human": 3,
+        "mixed": 0
+      }
+    },
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "minus-1": "rules/arm-minus-1.txt",
+      "minus-2": "rules/arm-minus-2.txt",
+      "minus-3": "rules/arm-minus-3.txt",
+      "minus-4": "rules/arm-minus-4.txt",
+      "minus-5": "rules/arm-minus-5.txt",
+      "casual": "rules/arm-casual.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 5
+      },
+      "minus-1": {
+        "AI": 5
+      },
+      "minus-2": {
+        "AI": 5
+      },
+      "minus-3": {
+        "AI": 5
+      },
+      "minus-4": {
+        "AI": 5
+      },
+      "minus-5": {
+        "AI": 4,
+        "Mixed": 1
+      },
+      "casual": {
+        "AI": 5
+      }
+    }
   }
 ]
