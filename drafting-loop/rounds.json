@@ -1625,5 +1625,46 @@
         "Mixed": 1
       }
     }
+  },
+  {
+    "round": 38,
+    "mode": "arms",
+    "phase": "anchor-term",
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "poster-printing-replicate",
+      "kitchen-closing-replicate",
+      "plant-sitting-replicate"
+    ],
+    "pooledThisRound": {
+      "incumbent": {
+        "rounds": 3,
+        "drafts": 45,
+        "structure": 45,
+        "human": 0,
+        "mixed": 0
+      },
+      "anchor": {
+        "rounds": 3,
+        "drafts": 45,
+        "structure": 45,
+        "human": 0,
+        "mixed": 1
+      }
+    },
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "anchor": "rules/arm-anchor.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 15
+      },
+      "anchor": {
+        "AI": 15
+      }
+    }
   }
 ]

@@ -234,5 +234,20 @@
     "id": "centrifuge-handoff-replicate",
     "probe": "exact replicate of centrifuge-handoff (0 of 15 Human or Mixed, round 1); drift check",
     "request": "Write a concise handoff message from a lab technician to the bilingual colleague taking the evening shift. At 3 p.m. the centrifuge in room 204 started making a grinding noise, so I stopped it and put a do-not-use sign on it. The six samples that were inside it are now in the blue rack on the second shelf of the fridge. Please run those samples on the backup centrifuge in room 210 before 6 p.m. If the backup centrifuge makes the same noise, stop it and email the facilities manager, not the lab head. A technician is booked to inspect the first centrifuge on Thursday morning. Leave the sign on it until the technician says it is safe to use."
+  },
+  {
+    "id": "poster-printing-replicate",
+    "probe": "exact replicate of poster-printing (0 of 10 Human or Mixed, round 4); drift check",
+    "request": "Write a polite message from a graduate student to their bilingual advisor about a conference poster. I finished the poster draft and uploaded it to the shared drive this morning. The print shop needs the final file by Thursday at noon. Could you look at the results section before Wednesday evening? I shortened the methods section to fit the page, but I kept the sample size and the main figure. If you approve the poster, I will order the print and pick it up on Friday. The department reimburses printing costs if I submit the receipt within a week."
+  },
+  {
+    "id": "kitchen-closing-replicate",
+    "probe": "exact replicate of kitchen-closing (0 of 10 Human or Mixed, round 5); drift check",
+    "request": "Write a direct message from a restaurant shift lead to the bilingual cook closing tonight. The walk-in fridge door is not sealing well, so close it firmly and check it twice. Move the fish from the top shelf of the walk-in to the small fridge by the grill. Label anything you open tonight with today's date. The dish machine is running hot, so turn it off as soon as the last rack is done. Leave the floor drains uncovered so they dry overnight. If the walk-in reads above 5 degrees at closing, text me a photo of the thermometer."
+  },
+  {
+    "id": "plant-sitting-replicate",
+    "probe": "exact replicate of plant-sitting (0 of 10 Human or Mixed, round 6); drift check",
+    "request": "Write a casual message from someone going away for a week to the bilingual friend who will water their plants. The spare key is under the blue pot by the door. Water the big fern on Monday and Thursday, about one cup each time. The cactus on the windowsill does not need any water this week. If the fern's leaves turn yellow, move it away from the window. Please bring in any packages so they are not left outside. Help yourself to the snacks in the kitchen cupboard."
   }
 ]
