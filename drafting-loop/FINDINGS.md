@@ -74,6 +74,20 @@ The laundry-card drafts used `laundry card` in nearly every sentence. Across all
 
 The gap holds within a brief. In briefs that had at least one `Human` draft, the `Human` drafts repeated their top term on 2.2 lines on average, and the `AI` drafts on 1.4. This is a correlation, measured with a simple span extractor.
 
-## Next: anchor-term test, rounds 36 to 38
+## Anchor-term test: rounds 36 to 38
 
-[rules/arm-anchor.txt](rules/arm-anchor.txt) changes only rule 4 of the current rules: pick the one English term for the main thing in the message and reuse it unchanged in at least three sentences. Both rule sets draft exact replicates of 9 briefs that earlier got no `Human` or `Mixed` label. If the current rules now hit far above 0 on those briefs, something in the generator changed over time. If they stay near 0, the brief-probe briefs were the cause. The anchor arm shows whether the rule moves briefs that never worked.
+[rules/arm-anchor.txt](rules/arm-anchor.txt) changes only rule 4 of the current rules: pick the one English term for the main thing in the message and reuse it unchanged in at least three sentences. Both rule sets drafted exact replicates of 9 briefs that earlier got no `Human` or `Mixed` label.
+
+| Rules | Drafts | `Human` | `Mixed` | Top English term on 3+ lines |
+|---|---:|---:|---:|---:|
+| Current rules | 45 | 0 | 0 | 6 / 45 |
+| Anchor-term rule | 45 | 0 | 1 | 34 / 45 |
+
+- **No drift.** The current rules still got 0 on briefs that got 0 before, so the 28% in rounds 34 and 35 came from those briefs.
+- **Repetition is not the cause.** The anchor rule made drafts repeat a term, as asked, and they still got `AI`. The correlation above comes from briefs built around one recurring item, such as a laundry card or a package locker.
+
+So far the subject of the message is the only thing that has moved the label: building-amenity notices with a central card, locker, code, or permit.
+
+## Next: genre arms, rounds 39 to 41
+
+Inside that genre the current rules hit about 28%, so rule differences can show up in far fewer drafts than at 2%. Four rule sets (current, no rules, anchor, casual) each draft 6 briefs: exact replicates of `laundry-card`, `mailroom-lockers`, and `package-room-twin`, plus 3 new notices in the same style (`storage-cage`, `key-fob`, `visitor-parking`). This shows whether the genre rate holds, and whether any rule set pushes it higher or the rules do not matter at all.

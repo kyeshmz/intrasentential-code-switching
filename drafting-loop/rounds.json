@@ -1666,5 +1666,70 @@
         "AI": 15
       }
     }
+  },
+  {
+    "round": 39,
+    "mode": "arms",
+    "phase": "genre-arms",
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "storage-cage",
+      "laundry-card-replicate"
+    ],
+    "pooledThisRound": {
+      "incumbent": {
+        "rounds": 1,
+        "drafts": 10,
+        "structure": 10,
+        "human": 9,
+        "mixed": 0
+      },
+      "baseline": {
+        "rounds": 1,
+        "drafts": 10,
+        "structure": 10,
+        "human": 0,
+        "mixed": 0
+      },
+      "anchor": {
+        "rounds": 1,
+        "drafts": 10,
+        "structure": 10,
+        "human": 9,
+        "mixed": 0
+      },
+      "casual": {
+        "rounds": 1,
+        "drafts": 10,
+        "structure": 10,
+        "human": 9,
+        "mixed": 0
+      }
+    },
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "baseline": null,
+      "anchor": "rules/arm-anchor.txt",
+      "casual": "rules/arm-casual.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "Human": 9,
+        "AI": 1
+      },
+      "baseline": {
+        "AI": 10
+      },
+      "anchor": {
+        "Human": 9,
+        "AI": 1
+      },
+      "casual": {
+        "Human": 9,
+        "AI": 1
+      }
+    }
   }
 ]

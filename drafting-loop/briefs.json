@@ -249,5 +249,15 @@
     "id": "plant-sitting-replicate",
     "probe": "exact replicate of plant-sitting (0 of 10 Human or Mixed, round 6); drift check",
     "request": "Write a casual message from someone going away for a week to the bilingual friend who will water their plants. The spare key is under the blue pot by the door. Water the big fern on Monday and Thursday, about one cup each time. The cactus on the windowsill does not need any water this week. If the fern's leaves turn yellow, move it away from the window. Please bring in any packages so they are not left outside. Help yourself to the snacks in the kitchen cupboard."
+  },
+  {
+    "id": "storage-cage",
+    "probe": "new building-amenity notice in the laundry-card style",
+    "request": "Write a polite notice from a building manager to bilingual residents about the storage room. Starting next month, each unit can rent one storage cage in the basement storage room. A storage cage costs $25 a month, paid together with your rent. Sign up at the management office and bring your unit number. Each storage cage needs your own padlock. Do not store paint, gas cans, or anything else that can catch fire. Storage cages are assigned in the order people sign up."
+  },
+  {
+    "id": "laundry-card-replicate",
+    "probe": "exact replicate of laundry-card (5/5 Human, round 34)",
+    "request": "Write a polite notice from a building manager to bilingual residents about the laundry room. Starting on the 1st of next month, the washers and dryers will take a laundry card instead of coins. Pick up a free card at the management office and bring your unit number. Add money to the card at the machine next to the laundry room door. A wash costs $2 and a dry costs $1.50. Money left on the card does not expire. If you lose your card, a new one costs $5."
   }
 ]
