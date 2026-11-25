@@ -387,5 +387,26 @@
         "AI": 5
       }
     }
+  },
+  {
+    "round": 19,
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "team-lunch"
+    ],
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "candidate": "rules/proposed-round-19.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 5
+      },
+      "candidate": {
+        "AI": 5
+      }
+    }
   }
 ]

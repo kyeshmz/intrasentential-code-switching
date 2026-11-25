@@ -74,5 +74,9 @@
   {
     "id": "hotel-early-checkin",
     "request": "Write a polite email from a bilingual traveler to a hotel about an upcoming stay. I have a reservation for three nights starting next Thursday. My flight lands at 8 a.m., so I would like to ask whether early check-in is possible. If the room is not ready, could I leave my luggage at the front desk? I also requested a quiet room away from the elevator when I booked. Please confirm whether breakfast is included in my rate. I will be traveling with a work laptop and need a desk in the room."
+  },
+  {
+    "id": "team-lunch",
+    "request": "Write a casual message from a coworker to bilingual teammates about a team lunch. We are going to the noodle place across the street on Friday at 12:30 p.m. to celebrate the project launch. The manager is paying, so you do not need to bring money. Please reply with your order by Thursday so I can call it in ahead of time. They have vegetarian and gluten-free options. If you have a meeting at that time, we can save you a seat until 1 p.m. We will walk over together from the lobby."
   }
 ]
