@@ -1460,5 +1460,40 @@
         "AI": 5
       }
     }
+  },
+  {
+    "round": 34,
+    "mode": "arms",
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "water-shutoff-replicate",
+      "laundry-room-replicate",
+      "laundry-room-chat",
+      "laundry-card",
+      "gym-room-twin",
+      "package-room-twin",
+      "office-kitchen-twin"
+    ],
+    "pooledThisRound": {
+      "incumbent": {
+        "rounds": 1,
+        "drafts": 35,
+        "structure": 35,
+        "human": 11,
+        "mixed": 4
+      }
+    },
+    "variants": {
+      "incumbent": "rules/current.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "Human": 11,
+        "AI": 20,
+        "Mixed": 4
+      }
+    }
   }
 ]

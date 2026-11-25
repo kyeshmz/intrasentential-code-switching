@@ -134,5 +134,40 @@
   {
     "id": "park-cleanup",
     "request": "Write a friendly group message from a volunteer to bilingual neighbors about a park cleanup. The cleanup is on Sunday from 9 a.m. to noon at the east entrance of the park. Gloves and trash bags will be provided at the sign-in table. Wear long pants because of the bushes near the pond. Do not pick up needles or broken glass; mark them with the orange flags instead. Kids are welcome if an adult stays with them. We will share coffee and snacks at the end."
+  },
+  {
+    "id": "water-shutoff-replicate",
+    "probe": "exact replicate of water-shutoff (0/10 Human); control",
+    "request": "Write a polite notice from the building manager to bilingual tenants. The water will be shut off on Thursday from 9 a.m. to noon so a plumber can replace the main valve in the basement. Fill a few bottles before 9 a.m. if you need water during that time. Do not run the dishwasher or washing machine while the water is off. When the water comes back, it may look cloudy for a few minutes, so let the tap run until it clears. If the water is still cloudy after ten minutes, call the building office. The laundry room will reopen at 1 p.m."
+  },
+  {
+    "id": "laundry-room-replicate",
+    "probe": "exact replicate of laundry-room (11/35 Human)",
+    "request": "Write a polite notice from a building manager to bilingual residents about the laundry room. The second dryer is broken, and a repair technician comes next Tuesday. Until then, please limit each dryer load to one hour. Clean the lint filter after every use. Do not leave laundry in the machines overnight. The laundry room still closes at 10 p.m. If a machine eats your coins, write your unit number on the form by the door."
+  },
+  {
+    "id": "laundry-room-chat",
+    "probe": "laundry-room facts, sent by a resident as a casual group chat",
+    "request": "Write a casual group-chat message from a resident to bilingual neighbors about the laundry room. The second dryer is broken, and a repair technician comes next Tuesday. Until then, let's keep each dryer load to one hour. Clean the lint filter after every use. Don't leave laundry in the machines overnight. The laundry room still closes at 10 p.m. If a machine eats your coins, write your unit number on the form by the door."
+  },
+  {
+    "id": "laundry-card",
+    "probe": "laundry room and sender kept, different facts",
+    "request": "Write a polite notice from a building manager to bilingual residents about the laundry room. Starting on the 1st of next month, the washers and dryers will take a laundry card instead of coins. Pick up a free card at the management office and bring your unit number. Add money to the card at the machine next to the laundry room door. A wash costs $2 and a dry costs $1.50. Money left on the card does not expire. If you lose your card, a new one costs $5."
+  },
+  {
+    "id": "gym-room-twin",
+    "probe": "laundry-room sentence structure and sender, building gym instead",
+    "request": "Write a polite notice from a building manager to bilingual residents about the gym. The second treadmill is broken, and a repair technician comes next Tuesday. Until then, please limit each treadmill session to thirty minutes. Wipe down the machine after every use. Do not leave towels or water bottles in the gym overnight. The gym still closes at 10 p.m. If your key fob does not open the gym door, write your unit number on the form by the mailboxes."
+  },
+  {
+    "id": "package-room-twin",
+    "probe": "laundry-room sentence structure and sender, package room instead",
+    "request": "Write a polite notice from a building manager to bilingual residents about the package room. The second locker bank is broken, and a repair technician comes next Tuesday. Until then, please pick up each package within one day. Close the locker door after every use. Do not leave packages on the package room floor overnight. The package room still closes at 10 p.m. If a locker does not open with your code, write your unit number on the form by the door."
+  },
+  {
+    "id": "office-kitchen-twin",
+    "probe": "laundry-room sentence structure, office kitchen and staff instead of residents",
+    "request": "Write a polite notice from an office manager to bilingual staff about the office kitchen. The second microwave is broken, and a repair technician comes next Tuesday. Until then, please limit each use to three minutes. Clean the microwave plate after every use. Do not leave food in the fridge overnight. The office kitchen still closes at 8 p.m. If the vending machine eats your coins, write your desk number on the form by the door."
   }
 ]
