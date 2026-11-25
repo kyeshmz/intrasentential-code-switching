@@ -98,5 +98,9 @@
   {
     "id": "guitar-lesson",
     "request": "Write a friendly message from a guitar teacher to a bilingual student. Next week's lesson moves from Tuesday to Wednesday at the same time, 5 p.m. Please practice the two chord changes we worked on, at least ten minutes a day. Bring the songbook, because we will start the second song. Change your strings before the lesson if they still sound dull. If you cannot make Wednesday, tell me by Monday so I can offer the slot to someone else. The lesson fee stays the same."
+  },
+  {
+    "id": "wedding-rsvp",
+    "request": "Write a warm message from a couple to bilingual friends about their wedding RSVP. Please reply to the invitation by the end of this month. Let us know if you will bring a plus-one, so we can plan the seating. Tell us about any food allergies, because the caterer needs a final list. The ceremony starts at 3 p.m., and guests should arrive by 2:30 p.m. There is free parking behind the venue. If you cannot come, we would still love a short message."
   }
 ]
