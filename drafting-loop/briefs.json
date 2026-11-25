@@ -54,5 +54,9 @@
   {
     "id": "library-return",
     "request": "Write a polite notice from a public librarian to bilingual library members. The return box outside the main entrance will be closed from Monday to Wednesday for repairs. During that time, return books at the front desk during opening hours. No late fees will be charged for items due on those three days. Laptops and tablets must still be returned in person to staff. The book drop at the north branch is open as usual. Questions can go to the front desk by phone or email."
+  },
+  {
+    "id": "package-roommate",
+    "request": "Write a casual message from someone at work to their bilingual roommate about a package. A delivery is arriving today between 2 and 4 p.m., and it needs a signature. It is a replacement router, so please do not leave it in the hallway. If you are not home, the driver will leave a slip and take it back to the depot. Put the old router by the front door so I can return it tomorrow. Do not unplug the old one until the new one is set up. I will be home around 7 p.m. and will set it up then."
   }
 ]

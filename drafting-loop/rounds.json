@@ -279,5 +279,28 @@
         "AI": 5
       }
     }
+  },
+  {
+    "round": 14,
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "package-roommate"
+    ],
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "candidate": "rules/proposed-round-14.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "Human": 2,
+        "AI": 3
+      },
+      "candidate": {
+        "AI": 3,
+        "Mixed": 2
+      }
+    }
   }
 ]
