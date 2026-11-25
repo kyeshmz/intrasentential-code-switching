@@ -110,5 +110,9 @@
   {
     "id": "trip-permission",
     "request": "Write a polite message from a teacher to bilingual parents about a class trip. The class will visit the science museum next Friday. Please sign and return the permission slip by Wednesday. Students need a packed lunch and a water bottle, since there is no cafeteria. The bus leaves school at 9 a.m. and comes back by 2:30 p.m. Students should wear the school T-shirt so we can spot them easily. If you can join as a volunteer, please let me know by Monday."
+  },
+  {
+    "id": "coworking-desk",
+    "request": "Write a friendly message from a coworking space manager to a bilingual member. Your fixed desk moves from the window row to desk 14 by the kitchen, starting Monday. We will move your monitor and drawer for you over the weekend. Please take any personal items off the old desk by Friday evening. Your access card will still work at the same doors. The printer code stays the same. If the new spot does not work for you, tell me and I will look for another one."
   }
 ]
