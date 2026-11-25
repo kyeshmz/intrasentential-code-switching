@@ -78,5 +78,9 @@
   {
     "id": "team-lunch",
     "request": "Write a casual message from a coworker to bilingual teammates about a team lunch. We are going to the noodle place across the street on Friday at 12:30 p.m. to celebrate the project launch. The manager is paying, so you do not need to bring money. Please reply with your order by Thursday so I can call it in ahead of time. They have vegetarian and gluten-free options. If you have a meeting at that time, we can save you a seat until 1 p.m. We will walk over together from the lobby."
+  },
+  {
+    "id": "dog-sitter",
+    "request": "Write a casual message from a dog owner to a bilingual friend who is watching the dog this weekend. Feed him one cup of dry food in the morning and one cup at night. His medicine is in the small blue bottle on the counter, one pill with dinner. Walk him twice a day, but keep him on the leash because he chases cats. He is not allowed on the couch, even if he looks sad. The vet's number is on the fridge in case anything happens. I will be back on Sunday around 6 p.m."
   }
 ]

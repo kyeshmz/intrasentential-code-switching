@@ -408,5 +408,26 @@
         "AI": 5
       }
     }
+  },
+  {
+    "round": 20,
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "dog-sitter"
+    ],
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "candidate": "rules/proposed-round-20.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 5
+      },
+      "candidate": {
+        "AI": 5
+      }
+    }
   }
 ]
