@@ -1,0 +1,607 @@
+{
+  "es-en": [
+    {
+      "id": "es-en-01",
+      "sourceId": "es-en-ai-neighborhood",
+      "stratum": "ai",
+      "matrixLanguage": "es",
+      "embeddedLanguage": "en",
+      "scenario": "neighborhood-logistics",
+      "source": {
+        "kind": "model",
+        "id": "GPT-6.2 Sol (this session)",
+        "basis": "Original example based on informal bilingual coordination, not adapted from a source post.",
+        "parts": [
+          {
+            "id": "es-ai-neighborhood-1",
+            "switchPhrase": "the back door"
+          },
+          {
+            "id": "es-ai-neighborhood-2",
+            "switchPhrase": "a couple of chairs"
+          },
+          {
+            "id": "es-ai-neighborhood-3",
+            "switchPhrase": "the extra extension cords"
+          },
+          {
+            "id": "es-ai-neighborhood-4",
+            "switchPhrase": "we're almost done"
+          },
+          {
+            "id": "es-ai-neighborhood-5",
+            "switchPhrase": "the elevator is out of service"
+          },
+          {
+            "id": "es-ai-neighborhood-6",
+            "switchPhrase": "the new entry instructions"
+          },
+          {
+            "id": "es-ai-neighborhood-7",
+            "switchPhrase": "the spare key in the drawer"
+          }
+        ]
+      },
+      "text": "La vecina dijo que the back door se queda abierta hasta que terminen de sacar las sillas.\nSi todavía queda espacio, guarda a couple of chairs junto a la entrada para los que llegan tarde.\nMejor dejamos la caja con the extra extension cords debajo de la mesa para que nadie tropiece.\nSi pasa alguien del edificio, dile que we're almost done y que en diez minutos recogemos todo.\nEn el chat dijeron que the elevator is out of service hasta mañana, así que subimos por las escaleras.\nPara los que vienen después, pega the new entry instructions al lado del timbre, que ahí sí se ven.\nCuando cerré, dejé the spare key in the drawer porque es lo primero que revisa la encargada.",
+      "sha256": "92637c10859e25cbb0f9b741f28af711a90bf3d2de4b39b702f6a10d1b7ecc52"
+    },
+    {
+      "id": "es-en-02",
+      "sourceId": "es-en-ai-work",
+      "stratum": "ai",
+      "matrixLanguage": "es",
+      "embeddedLanguage": "en",
+      "scenario": "work-coordination",
+      "source": {
+        "kind": "model",
+        "id": "GPT-6.2 Sol (this session)",
+        "basis": "Original example based on informal bilingual coordination, not adapted from a source post.",
+        "parts": [
+          {
+            "id": "es-ai-work-1",
+            "switchPhrase": "the latest draft"
+          },
+          {
+            "id": "es-ai-work-2",
+            "switchPhrase": "the second column"
+          },
+          {
+            "id": "es-ai-work-3",
+            "switchPhrase": "we could meet outside"
+          },
+          {
+            "id": "es-ai-work-4",
+            "switchPhrase": "the link actually works"
+          },
+          {
+            "id": "es-ai-work-5",
+            "switchPhrase": "the spare headset"
+          },
+          {
+            "id": "es-ai-work-6",
+            "switchPhrase": "I'd be ten minutes late"
+          },
+          {
+            "id": "es-ai-work-7",
+            "switchPhrase": "the final version"
+          }
+        ]
+      },
+      "text": "Si te queda un rato antes de salir, revisa the latest draft para que no mandemos la versión de ayer.\nLo de los precios va en the second column, justo donde puse los gastos del mes pasado.\nComo nadie se acordó de reservar sala, pregunté si we could meet outside mientras llega el resto.\nAntes de mandar el correo, comprueba que the link actually works desde el teléfono, que ahí a veces falla.\nSi mañana te toca abrir, busca the spare headset en el armario junto a las libretas viejas.\nLe escribí al grupo que I'd be ten minutes late porque el tren se quedó parado antes de llegar a la estación.\nCuando acabes de revisar las cifras, pon the final version encima de las demás para que no confundamos los papeles.",
+      "sha256": "d87eacc179b68ae8912119d297acb343061bcf1f67e4041fde810369bb063fdb"
+    },
+    {
+      "id": "es-en-03",
+      "sourceId": "es-en-ai-food",
+      "stratum": "ai",
+      "matrixLanguage": "es",
+      "embeddedLanguage": "en",
+      "scenario": "food-and-errands",
+      "source": {
+        "kind": "model",
+        "id": "GPT-6.2 Sol (this session)",
+        "basis": "Original example based on informal bilingual coordination, not adapted from a source post.",
+        "parts": [
+          {
+            "id": "es-ai-food-1",
+            "switchPhrase": "the bread at home"
+          },
+          {
+            "id": "es-ai-food-2",
+            "switchPhrase": "two plates to share"
+          },
+          {
+            "id": "es-ai-food-3",
+            "switchPhrase": "the soup is really good"
+          },
+          {
+            "id": "es-ai-food-4",
+            "switchPhrase": "the music was too loud"
+          },
+          {
+            "id": "es-ai-food-5",
+            "switchPhrase": "the bread was included"
+          },
+          {
+            "id": "es-ai-food-6",
+            "switchPhrase": "the last bunch of cilantro"
+          },
+          {
+            "id": "es-ai-food-7",
+            "switchPhrase": "the leftovers in the fridge"
+          }
+        ]
+      },
+      "text": "Pasé por la panadería porque the bread at home estaba duro y quería llevar algo fresco para la cena.\nPara la mesa de afuera, pedimos two plates to share y nos trajeron cubiertos para cuatro personas.\nA mi hermana le dije que the soup is really good, pero ella ya había pedido otra cosa.\nNos sentamos cerca de la ventana porque the music was too loud junto a la barra y no nos oíamos.\nAntes de pagar pregunté si the bread was included porque en la carta no decía nada del suplemento.\nEn el mercado compré the last bunch of cilantro para hacer la salsa que me encargó mi vecina.\nCuando llegues a casa, deja the leftovers in the fridge para que no se queden toda la noche en la mesa.",
+      "sha256": "ba730ef54906d32f8a77b4dfa6b91715cff36a3957d986bc001c145e630c8cfe"
+    }
+  ],
+  "zh-en": [
+    {
+      "id": "zh-en-01",
+      "sourceId": "zh-en-ai-neighborhood",
+      "stratum": "ai",
+      "matrixLanguage": "zh",
+      "embeddedLanguage": "en",
+      "scenario": "neighborhood-logistics",
+      "source": {
+        "kind": "model",
+        "id": "GPT-6.2 Sol (this session)",
+        "basis": "Original informal writing about housing and pickups, not adapted from a source post.",
+        "parts": [
+          {
+            "id": "zh-ai-neighborhood-1",
+            "switchPhrase": "the instructions for the side entrance"
+          },
+          {
+            "id": "zh-ai-neighborhood-2",
+            "switchPhrase": "a quick walk-through"
+          },
+          {
+            "id": "zh-ai-neighborhood-3",
+            "switchPhrase": "the pickup time for tomorrow"
+          },
+          {
+            "id": "zh-ai-neighborhood-4",
+            "switchPhrase": "the spare key is in the drawer"
+          },
+          {
+            "id": "zh-ai-neighborhood-5",
+            "switchPhrase": "a photo of the broken light"
+          },
+          {
+            "id": "zh-ai-neighborhood-6",
+            "switchPhrase": "two spots near the entrance"
+          },
+          {
+            "id": "zh-ai-neighborhood-7",
+            "switchPhrase": "the rent includes heat"
+          }
+        ]
+      },
+      "text": "门卡刷不开，我把 the instructions for the side entrance 发群里了，晚到的走侧门。\n我和新室友约了 a quick walk-through，等她下班就去看水表和电箱。\n二手桌还没约好时间，你问一下 the pickup time for tomorrow，我好提前借车。\n小周说 the spare key is in the drawer，我翻半天只找着一把车钥匙。\n我把 a photo of the broken light 发给物业了，他们说下午来换。\n楼下还有 two spots near the entrance，你搬箱子的时候先停那儿吧。\n房东说 the rent includes heat，我还想问问暖气能不能自己调。",
+      "sha256": "fb45a54380b2ab57bf5f14c5227b3ee5e1673d8c3c903c60f8b10e8b385fb344"
+    },
+    {
+      "id": "zh-en-02",
+      "sourceId": "zh-en-human-psu-housing",
+      "stratum": "human",
+      "matrixLanguage": "zh",
+      "embeddedLanguage": "en",
+      "scenario": "housing",
+      "source": {
+        "kind": "public-pre-llm",
+        "id": "Calvillo et al. PSU CSSA BBS housing subset",
+        "url": "https://aclanthology.org/2020.emnlp-main.330/",
+        "textIndex": "https://github.com/lfang1/CodeSwitchingResearch/blob/master/11152019_two_entropies_appended_input_R_v4.csv",
+        "credit": "Penn State CSSA BBS contributors (names not supplied in the cleaned release); corpus compiled by Jesús Calvillo, Le Fang, Jeremy Cole, and David Reitter",
+        "year": 2020,
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseEvidence": "https://github.com/lfang1/CodeSwitchingResearch/blob/master/copy-right-license/psu-cssa-copyrights-full.PNG",
+        "changes": "Took original_sentence from PSU code-switch rows in the authors' cleaned, tokenized release. Removed segmentation spaces between Han and around CJK punctuation; joined independent sentences with newlines. No wording or punctuation was added or changed.",
+        "parts": [
+          {
+            "id": "calvillo-psu-78",
+            "switchPhrase": "walk-in closet"
+          },
+          {
+            "id": "calvillo-psu-345",
+            "switchPhrase": "young couple"
+          },
+          {
+            "id": "calvillo-psu-401",
+            "switchPhrase": "living room"
+          },
+          {
+            "id": "calvillo-psu-473",
+            "switchPhrase": "floor plan"
+          },
+          {
+            "id": "calvillo-psu-968",
+            "switchPhrase": "bus stop"
+          },
+          {
+            "id": "calvillo-psu-1099",
+            "switchPhrase": "full bathroom"
+          },
+          {
+            "id": "calvillo-psu-1605",
+            "switchPhrase": "fully furnished"
+          }
+        ]
+      },
+      "text": "房间很大，自带 walk-in closet 和卫生间。\n这个小区环境很好，很安静，非常适合 young couple 居住。\n一楼一个卧室，三楼两个卧室，二层（公用）是 living room，厨房， 1/2 卫生间，阳台。\n我找了很久 floor plan，但是真的真的没有找到。\n公寓离 bus stop 稍远但环境安静绝不会吵闹。\n二楼的是 full bathroom，空间比较大，一应俱全。\n房子是 fully furnished，可以拎包入住，而且家具都比较新。",
+      "sha256": "8fbaef11e88cb85f7d702456913ba6d95334a6268034f196febad1695429bd6d"
+    },
+    {
+      "id": "zh-en-03",
+      "sourceId": "zh-en-human-psu-transport",
+      "stratum": "human",
+      "matrixLanguage": "zh",
+      "embeddedLanguage": "en",
+      "scenario": "transport-and-parking",
+      "source": {
+        "kind": "public-pre-llm",
+        "id": "Calvillo et al. PSU CSSA BBS transport subset",
+        "url": "https://aclanthology.org/2020.emnlp-main.330/",
+        "textIndex": "https://github.com/lfang1/CodeSwitchingResearch/blob/master/11152019_two_entropies_appended_input_R_v4.csv",
+        "credit": "Penn State CSSA BBS contributors (names not supplied in the cleaned release); corpus compiled by Jesús Calvillo, Le Fang, Jeremy Cole, and David Reitter",
+        "year": 2020,
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseEvidence": "https://github.com/lfang1/CodeSwitchingResearch/blob/master/copy-right-license/psu-cssa-copyrights-full.PNG",
+        "changes": "Took original_sentence from PSU code-switch rows in the authors' cleaned, tokenized release. Removed segmentation spaces between Han and around CJK punctuation; joined independent sentences with newlines. No wording or punctuation was added or changed.",
+        "parts": [
+          {
+            "id": "calvillo-psu-706",
+            "switchPhrase": "mechanical inspection"
+          },
+          {
+            "id": "calvillo-psu-766",
+            "switchPhrase": "moderate accident"
+          },
+          {
+            "id": "calvillo-psu-894",
+            "switchPhrase": "bus stop"
+          },
+          {
+            "id": "calvillo-psu-1267",
+            "switchPhrase": "very good condition"
+          },
+          {
+            "id": "calvillo-psu-1349",
+            "switchPhrase": "visitor parking"
+          },
+          {
+            "id": "calvillo-psu-1380",
+            "switchPhrase": "guest parking"
+          },
+          {
+            "id": "calvillo-psu-1535",
+            "switchPhrase": "overnight parking"
+          }
+        ]
+      },
+      "text": "去做 inspection 的时候，记得说明白，是做 mechanical inspection，不是安全和尾气检查\n一般来说 moderate accident 以上的就是比较严重的了。\napartment 是四室两卫，在第一层，不用爬楼梯，距离 bus stop 只要 1-2 分钟。\n车保养得很好，没有出过什么问题，处于 good condition 与 very good condition 之间。\n楼主如果没有办 permit 为什么不停 visitor parking 呢。\n停车免费， guest parking 也是免费。\n或者附近有没公寓，可以免费 overnight parking 的啊？",
+      "sha256": "e6b75eb1a59c5f1d8cf6e3b5be2508c2f1e74b17d776ea3b0714f798e595676d"
+    },
+    {
+      "id": "zh-en-04",
+      "sourceId": "zh-en-ai-work",
+      "stratum": "ai",
+      "matrixLanguage": "zh",
+      "embeddedLanguage": "en",
+      "scenario": "work-coordination",
+      "source": {
+        "kind": "model",
+        "id": "GPT-6.2 Sol (this session)",
+        "basis": "Original informal writing about project coordination, not adapted from a source post.",
+        "parts": [
+          {
+            "id": "zh-ai-work-1",
+            "switchPhrase": "the updated signup sheet"
+          },
+          {
+            "id": "zh-ai-work-2",
+            "switchPhrase": "the dates on the second page"
+          },
+          {
+            "id": "zh-ai-work-3",
+            "switchPhrase": "we can start without her"
+          },
+          {
+            "id": "zh-ai-work-4",
+            "switchPhrase": "the slides from last week"
+          },
+          {
+            "id": "zh-ai-work-5",
+            "switchPhrase": "the confirmation email"
+          },
+          {
+            "id": "zh-ai-work-6",
+            "switchPhrase": "a short list of action items"
+          },
+          {
+            "id": "zh-ai-work-7",
+            "switchPhrase": "the final version with comments"
+          }
+        ]
+      },
+      "text": "我把 the updated signup sheet 发群里了，昨晚填过的不用再填。\n印之前看看 the dates on the second page，别又把旧时间印上去了。\n她说 we can start without her，让我们先试试投影，她买完电池就回来。\n老师问我要 the slides from last week，我记得你电脑里还有一份。\n三点前收不到 the confirmation email 就别订教室了，先问问对方有没有空。\n我晚点发 a short list of action items，大家帮我看看有没有漏掉什么。\n你改完把 the final version with comments 放回原来的文件夹，免得我又点错。",
+      "sha256": "a838952829f5ab268084920995045bf08bdf2f98f9e3fed8f329ddeb1a7ac98b"
+    },
+    {
+      "id": "zh-en-05",
+      "sourceId": "zh-en-ai-food",
+      "stratum": "ai",
+      "matrixLanguage": "zh",
+      "embeddedLanguage": "en",
+      "scenario": "food-and-errands",
+      "source": {
+        "kind": "model",
+        "id": "GPT-6.2 Sol (this session)",
+        "basis": "Original informal writing about meals and errands, not adapted from a source post.",
+        "parts": [
+          {
+            "id": "zh-ai-food-1",
+            "switchPhrase": "the lunch menu for this week"
+          },
+          {
+            "id": "zh-ai-food-2",
+            "switchPhrase": "a couple of extra bowls"
+          },
+          {
+            "id": "zh-ai-food-3",
+            "switchPhrase": "the soup comes with rice"
+          },
+          {
+            "id": "zh-ai-food-4",
+            "switchPhrase": "a small bag of frozen peas"
+          },
+          {
+            "id": "zh-ai-food-5",
+            "switchPhrase": "the order is at the front desk"
+          },
+          {
+            "id": "zh-ai-food-6",
+            "switchPhrase": "the last slice of cake"
+          },
+          {
+            "id": "zh-ai-food-7",
+            "switchPhrase": "the sauce we bought yesterday"
+          }
+        ]
+      },
+      "text": "店里刚贴出 the lunch menu for this week，想吃土豆牛肉得等到礼拜四。\n我去买菜会顺路带 a couple of extra bowls，今晚人多，家里的不够用。\n老板说 the soup comes with rice，咱们就不另外点主食了吧。\n你去超市帮我带 a small bag of frozen peas，家里那袋上周就吃完了。\n外卖员说 the order is at the front desk，我下楼拿，顺手把纸箱也收了。\n我在冰箱里留了 the last slice of cake，你回来饿了可以先吃。\n我刚试了半勺 the sauce we bought yesterday，比想象中辣，你下锅时少放点。",
+      "sha256": "b8b7440191b984e8e9af42212c07d4624e56130fc3de4910414226171c3eee3a"
+    },
+    {
+      "id": "zh-en-06",
+      "sourceId": "zh-en-human-psu-expenses",
+      "stratum": "human",
+      "matrixLanguage": "zh",
+      "embeddedLanguage": "en",
+      "scenario": "purchases-and-expenses",
+      "source": {
+        "kind": "public-pre-llm",
+        "id": "Calvillo et al. PSU CSSA BBS expenses subset",
+        "url": "https://aclanthology.org/2020.emnlp-main.330/",
+        "textIndex": "https://github.com/lfang1/CodeSwitchingResearch/blob/master/11152019_two_entropies_appended_input_R_v4.csv",
+        "credit": "Penn State CSSA BBS contributors (names not supplied in the cleaned release); corpus compiled by Jesús Calvillo, Le Fang, Jeremy Cole, and David Reitter",
+        "year": 2020,
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseEvidence": "https://github.com/lfang1/CodeSwitchingResearch/blob/master/copy-right-license/psu-cssa-copyrights-full.PNG",
+        "changes": "Took original_sentence from PSU code-switch rows in the authors' cleaned, tokenized release. Removed segmentation spaces between Han and around CJK punctuation; joined independent sentences with newlines. No wording or punctuation was added or changed.",
+        "parts": [
+          {
+            "id": "calvillo-psu-190",
+            "switchPhrase": "full size"
+          },
+          {
+            "id": "calvillo-psu-984",
+            "switchPhrase": "garage sale"
+          },
+          {
+            "id": "calvillo-psu-1113",
+            "switchPhrase": "meal plan"
+          },
+          {
+            "id": "calvillo-psu-1453",
+            "switchPhrase": "activity fee"
+          },
+          {
+            "id": "calvillo-psu-1727",
+            "switchPhrase": "mini washer"
+          },
+          {
+            "id": "calvillo-psu-1753",
+            "switchPhrase": "standard shipping"
+          },
+          {
+            "id": "calvillo-psu-1770",
+            "switchPhrase": "fee waiver"
+          }
+        ]
+      },
+      "text": "亲，可以看一下 full size 的床吗？\n如果有兴趣，请留言，我分别告诉大家 garage sale 的地址。\n快要回去了，转让 meal plan 十次午餐卡。\n今年的 activity fee 我已经交过了不会再收你的了！\n虽然是 mini washer，但是日常衣物洗起来都毫无压力。\n选择 standard shipping 即可免运费。\n这份协议里不仅包括了折扣，还包括了 fee waiver，其中包括万恶的激活费。",
+      "sha256": "0a9b5937cf455f9d3ce987f2a343ca7cc4c92f56b5c9b3df6725245800d098fd"
+    }
+  ],
+  "hi-en-short": [
+    {
+      "id": "hi-en-short-01",
+      "sourceId": "hinglish-top-test-4",
+      "stratum": "human",
+      "matrixLanguage": "hi",
+      "embeddedLanguage": "en",
+      "scenario": "hinglish-top-test-4",
+      "source": {
+        "kind": "public-pre-llm",
+        "id": "test.tsv:4 / cs_query",
+        "url": "https://github.com/google-research-datasets/Hinglish-TOP-Dataset/blob/fdd3998a6573130659bfa1ce4b1ebe698df2bf3a/Dataset/Human%20Annotated%20Data/test.tsv#L4",
+        "credit": "Anmol Agarwal, Jigar Gupta, Rahul Goel, Shyam Upadhyay, Pankaj Joshi, and Rengarajan Aravamudhan",
+        "year": 2022,
+        "license": "https://www.apache.org/licenses/LICENSE-2.0"
+      },
+      "text": "Mere liye reminder set karo to wake up at 6:30 am tomorrow.",
+      "sha256": "0109ba458c621e5433335a5e18816ddc9433c374230037b630e8025a53ba5edd",
+      "switchPhrases": [
+        "reminder",
+        "to wake up at 6:30 am tomorrow"
+      ]
+    },
+    {
+      "id": "hi-en-short-02",
+      "sourceId": "hinglish-top-test-23",
+      "stratum": "human",
+      "matrixLanguage": "hi",
+      "embeddedLanguage": "en",
+      "scenario": "hinglish-top-test-23",
+      "source": {
+        "kind": "public-pre-llm",
+        "id": "test.tsv:23 / cs_query",
+        "url": "https://github.com/google-research-datasets/Hinglish-TOP-Dataset/blob/fdd3998a6573130659bfa1ce4b1ebe698df2bf3a/Dataset/Human%20Annotated%20Data/test.tsv#L23",
+        "credit": "Anmol Agarwal, Jigar Gupta, Rahul Goel, Shyam Upadhyay, Pankaj Joshi, and Rengarajan Aravamudhan",
+        "year": 2022,
+        "license": "https://www.apache.org/licenses/LICENSE-2.0"
+      },
+      "text": "Mai chahta hu ke aap abhi ek video message bheje",
+      "sha256": "461fa0df4e23365dc8a1148bb834d881ec05e2dbed0f175841eca04163b00b63",
+      "switchPhrases": [
+        "video message"
+      ]
+    },
+    {
+      "id": "hi-en-short-03",
+      "sourceId": "hinglish-top-test-45",
+      "stratum": "human",
+      "matrixLanguage": "hi",
+      "embeddedLanguage": "en",
+      "scenario": "hinglish-top-test-45",
+      "source": {
+        "kind": "public-pre-llm",
+        "id": "test.tsv:45 / cs_query",
+        "url": "https://github.com/google-research-datasets/Hinglish-TOP-Dataset/blob/fdd3998a6573130659bfa1ce4b1ebe698df2bf3a/Dataset/Human%20Annotated%20Data/test.tsv#L45",
+        "credit": "Anmol Agarwal, Jigar Gupta, Rahul Goel, Shyam Upadhyay, Pankaj Joshi, and Rengarajan Aravamudhan",
+        "year": 2022,
+        "license": "https://www.apache.org/licenses/LICENSE-2.0"
+      },
+      "text": "Kya koi fun events hai this weekend",
+      "sha256": "fd6e5b10c525a92f51c11811a697b5620e2105d2ef7c1e81e2c6e515dde6da5f",
+      "switchPhrases": [
+        "fun events",
+        "this weekend"
+      ]
+    },
+    {
+      "id": "hi-en-short-04",
+      "sourceId": "hinglish-top-test-49",
+      "stratum": "human",
+      "matrixLanguage": "hi",
+      "embeddedLanguage": "en",
+      "scenario": "hinglish-top-test-49",
+      "source": {
+        "kind": "public-pre-llm",
+        "id": "test.tsv:49 / cs_query",
+        "url": "https://github.com/google-research-datasets/Hinglish-TOP-Dataset/blob/fdd3998a6573130659bfa1ce4b1ebe698df2bf3a/Dataset/Human%20Annotated%20Data/test.tsv#L49",
+        "credit": "Anmol Agarwal, Jigar Gupta, Rahul Goel, Shyam Upadhyay, Pankaj Joshi, and Rengarajan Aravamudhan",
+        "year": 2022,
+        "license": "https://www.apache.org/licenses/LICENSE-2.0"
+      },
+      "text": "lunch time ke baad zoo jaane mei kitna samay lagtha hei?",
+      "sha256": "42160974fabb137239c245c02cef032aa9e3563e9a6a996a7e1a0a7f01ffcbb2",
+      "switchPhrases": [
+        "lunch time",
+        "zoo"
+      ]
+    }
+  ],
+  "zh-en-speech": [
+    {
+      "id": "zh-en-speech-01",
+      "sourceId": "ascend-test-00190",
+      "stratum": "human",
+      "matrixLanguage": "zh",
+      "embeddedLanguage": "en",
+      "scenario": "ascend-test-00190",
+      "source": {
+        "kind": "public-pre-llm",
+        "id": "test/00190",
+        "url": "https://huggingface.co/datasets/CAiRE/ASCEND/viewer/main/test?row=190",
+        "credit": "Holy Lovenia et al., ASCEND (LREC 2022)",
+        "year": 2022,
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "text": "那你有没有什么favourite foods",
+      "sha256": "9a4181825afdc4e23d06e8d3c6394e2fe43975aed397cd24e14a3392202774aa",
+      "switchPhrases": [
+        "favourite foods"
+      ]
+    },
+    {
+      "id": "zh-en-speech-02",
+      "sourceId": "ascend-test-00554",
+      "stratum": "human",
+      "matrixLanguage": "zh",
+      "embeddedLanguage": "en",
+      "scenario": "ascend-test-00554",
+      "source": {
+        "kind": "public-pre-llm",
+        "id": "test/00554",
+        "url": "https://huggingface.co/datasets/CAiRE/ASCEND/viewer/main/test?row=554",
+        "credit": "Holy Lovenia et al., ASCEND (LREC 2022)",
+        "year": 2022,
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "text": "嗯所以你平时会看Olympic games吗过去的几届",
+      "sha256": "f2190af1c1acd8c15f2bfa0b927c5a3cfa4011c3a5fe354df83f4670e9cafca7",
+      "switchPhrases": [
+        "Olympic games"
+      ],
+      "note": "Named event: a borderline lexical insertion, not a strict phrase-control item."
+    },
+    {
+      "id": "zh-en-speech-03",
+      "sourceId": "ascend-test-00644",
+      "stratum": "human",
+      "matrixLanguage": "zh",
+      "embeddedLanguage": "en",
+      "scenario": "ascend-test-00644",
+      "source": {
+        "kind": "public-pre-llm",
+        "id": "test/00644",
+        "url": "https://huggingface.co/datasets/CAiRE/ASCEND/viewer/main/test?row=644",
+        "credit": "Holy Lovenia et al., ASCEND (LREC 2022)",
+        "year": 2022,
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "text": "因为你不可能邀你的female friends去说走我们去play basketball",
+      "sha256": "97bbfc526470cc841cf498835a2a23494dabed6d8a65a63b93fd61bc10011ee3",
+      "switchPhrases": [
+        "female friends",
+        "play basketball"
+      ]
+    },
+    {
+      "id": "zh-en-speech-04",
+      "sourceId": "ascend-test-01278",
+      "stratum": "human",
+      "matrixLanguage": "zh",
+      "embeddedLanguage": "en",
+      "scenario": "ascend-test-01278",
+      "source": {
+        "kind": "public-pre-llm",
+        "id": "test/01278",
+        "url": "https://huggingface.co/datasets/CAiRE/ASCEND/viewer/main/test?row=1278",
+        "credit": "Holy Lovenia et al., ASCEND (LREC 2022)",
+        "year": 2022,
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "text": "可以用mobile payments但是大多数一些奢侈品品牌或者是一些mall里面",
+      "sha256": "ac44eb2a11c47145e0da195f953c59261490017bf8e5839897cce4e438958aea",
+      "switchPhrases": [
+        "mobile payments",
+        "mall"
+      ]
+    }
+  ]
+}

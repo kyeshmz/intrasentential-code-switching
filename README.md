@@ -1,4 +1,4 @@
-# Intra-sentential Code-Switching Benchmark · v0.1
+# Intra-sentential Code-Switching Benchmark · v0.2
 
 How does an authorship detector label text where a speaker changes languages **within a sentence**? This is a small, public development set. A bilingual exchange in which each person speaks only one language does not qualify. The task is to predict authorship, not to detect the switch itself.
 
@@ -6,8 +6,15 @@ How does an authorship detector label text where a speaker changes languages **w
 | --- | --- | --- |
 | `sleeping-dogs` · English with Cantonese insertions | One of three short, fan-reported game excerpts. At least one sentence per excerpt has a switch; other fragments may be monolingual. | 3 Human, 0 Mixed, 0 AI, 0 unscored |
 | `open` · Japanese with English insertions | One seven-sentence bundle. Three human JECS bundles and three AI counterparts share topic, register and approximate length. Every sentence switches. | Human bundles: 3 Human. AI bundles: 3 AI. None unscored. |
+| `es-en` · Spanish with English insertions | Three AI-written, seven-sentence bundles. | 3 AI |
+| `zh-en` · Mandarin with English insertions | Three bundles of housing, transport and expenses posts; three AI-written bundles. Seven sentences each. | Human bundles: 3 Human. AI bundles: 3 AI. |
+| `hi-en-short` · Hindi–English | Four human-written Hinglish assistant requests. | No bundled predictions |
+| `zh-en-speech` · Mandarin–English | Four transcribed ASCEND utterances, including one named-event insertion. | No bundled predictions |
+| `references` · multiple language pairs | [15 annotated examples](multilingual/README.md#reference-index) from games, film, songs, a linguistics paper, a forum and player chat. | No bundled predictions; descriptive only |
 
-The game track records what detectors **called** each excerpt. One is a reviewer's recollection, two are secondary quotations, and none is checked verbatim against the audio. The Cantonese expressions also overlap across cases. These three results are not an accuracy estimate for Cantonese–English. The Japanese track has known authorship but only three pairs and one generator. Do not pool the tracks: they differ in language, length, provenance and scoring unit.
+The *Sleeping Dogs* track records what detectors **called** each excerpt. One is a reviewer's recollection, two are secondary quotations, and none is checked verbatim against the audio. The Cantonese expressions also overlap across cases. These three results are not an accuracy estimate for Cantonese–English. The Japanese track has known authorship but only three pairs and one generator. Do not pool the tracks: they differ in language, length, provenance and scoring unit.
+
+**[Browse the multilingual examples, sources and licenses →](multilingual/README.md)** For instance, Gekko puts a Spanish noun phrase inside an English instruction; a *Mobile Legends* player completes a Javanese condition with an Indonesian command. These are different kinds of evidence: scripted dialogue versus a published observation of player chat.
 
 The [drafting-loop track](drafting-loop/README.md) adds fully AI-written seven-sentence messages in Japanese, Spanish, Mandarin, French, and Korean with English insertions. Each carries its Pangram 4.1 label and the drafting rules that produced it. It has no human texts and is not scored by `bench.mjs`.
 
@@ -19,17 +26,21 @@ From this directory, with Node.js 22+:
 node bench.mjs inputs open > inputs.jsonl
 node bench.mjs score open pangram-4.1-open.jsonl
 node bench.mjs score sleeping-dogs pangram-4.1-sleeping-dogs.jsonl
+node bench.mjs inputs es-en > inputs.jsonl
+node bench.mjs score es-en multilingual/pangram-4.1-es-en.jsonl
+node bench.mjs score zh-en multilingual/pangram-4.1-zh-en.jsonl
 ```
 
 To evaluate another detector, give it **only the `text` field** from each input. Save one prediction per input as `{"id":"open-01","verdict":"Human"}`. Verdicts are `Human`, `Mixed`, `AI` or `Unscored` (rejection, abstention or failure). Run `node bench.mjs score open predictions.jsonl`. IDs, not file order, determine the join. Record the detector, version, date and any threshold used to map scores to labels.
 
-The scorer reports verdict counts and coverage (scored / total) for each group. On the known-authorship open track it also reports the fraction **among scored items** with the exact expected label; `Mixed` is not an exact match for either class. If a detector rejects every item in a group, that fraction is undefined (`null`), not zero. On the game track it reports counts and coverage only.
+The scorer reports verdict counts and coverage (scored / total) for each group. For `human` and `ai` groups it also reports the fraction **among scored items** with the exact expected label; `Mixed` is not an exact match for either class. If a detector rejects every item in a group, that fraction is undefined (`null`), not zero. On `sleeping-dogs` and `references` it reports counts and coverage only.
 
 ## What can be shared?
 
 - **Open track:** `cases.json` includes all six texts, original source IDs, individual switch phrases, and the links between AI counterparts and human bundles. The [JECS](https://sites.google.com/site/shinnosuketakamichi/research-topics/jecs_corpus) text is by Shinnosuke Takamichi, Yoshifumi Nakano, Ai Morimatsu, Takaaki Saeki and Hiroshi Saruwatari, under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). Emphasis markers were removed and independent utterances joined with newlines. The AI texts are original generations for this project.
 - **Game track:** only IDs, source links, provenance, SHA-256 fingerprints and detector verdicts are distributed. Permission for the earlier Pangram run did not establish redistribution rights for the dialogue. With an authorized local JSONL containing `id` and `text`, run `node bench.mjs inputs sleeping-dogs LOCAL.jsonl`. Matching requires the exact UTF-8 text, including punctuation, with no added newline in the field. This is a source-indexed supplement, not an openly licensed game script.
-- **License:** the evaluator, documentation, original metadata and AI examples use the [included license](LICENSE). The JECS text retains its CC BY 3.0 license. The scorer runs offline with no API key.
+- **Multilingual tracks:** [cases.json](multilingual/cases.json) contains the reusable texts; [references.json](multilingual/references.json) contains source links, excerpt boundaries, and hashes for locally supplied text. Run `node bench.mjs inputs references LOCAL.jsonl` to check the reference inputs.
+- **License:** the evaluator, documentation, original metadata and AI examples use the [included license](LICENSE). Third-party texts retain their [source licenses](multilingual/README.md#sources-and-licenses). The scorer runs offline with no API key.
 
 The saved predictions come from historical Pangram jobs. Each retained result was joined by original ID and checked against the exact text returned by Pangram. The Cantonese-only item from the four-item game run was excluded before scoring this edition. No new scan was needed.
 

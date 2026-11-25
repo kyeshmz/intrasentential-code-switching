@@ -1,0 +1,212 @@
+[
+  {
+    "id": "ref-gekko",
+    "work": "Valorant · Gekko",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "stratum": "scripted-game",
+    "sourceUrl": "https://wiki.playvalorant.com/en-us/Gekko/Quotes",
+    "locator": "Spike → Defuse time running out; line containing mi ama.",
+    "switchShape": "noun phrase",
+    "note": "The Spanish phrase for ‘my mom’ is the object of an English verb. Community transcription.",
+    "sha256": "39781e51351438c2a5b672ca1ff958d6445459cbad3bee3ed56afb13d5acbd67"
+  },
+  {
+    "id": "ref-octane",
+    "work": "Apex Legends · Octane",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "stratum": "scripted-game",
+    "sourceUrl": "https://apexlegends.wiki.gg/wiki/Octane/Voice_lines",
+    "locator": "Intro; invitation containing casa de Octane.",
+    "switchShape": "noun phrase",
+    "note": "Spanish supplies the destination (‘Octane’s place’) inside an English invitation. Community transcription.",
+    "sha256": "f143d1af0d0446204582a916e531cce53870065917ca3633050f9ea076aae07c"
+  },
+  {
+    "id": "ref-jackie",
+    "work": "Cyberpunk 2077 · Jackie Welles",
+    "languages": [
+      "es",
+      "en"
+    ],
+    "stratum": "scripted-game",
+    "sourceUrl": "https://game-scripts-wiki.blogspot.com/2020/12/cyberpunk-2077-full-transcript.html",
+    "locator": "The Pickup; Jackie's reply to V asking about the wait. Omit the parenthesized English gloss; keep the single ellipsis character.",
+    "switchShape": "noun phrase",
+    "note": "The Spanish subject (‘my mother’) takes an English predicate. Fan transcript.",
+    "sha256": "eb5d2f7ad7130be7cb98a774e19de45085a24f92fb93c5430e9b30138663a479"
+  },
+  {
+    "id": "ref-gta-v",
+    "work": "Grand Theft Auto V · attributed to Franklin Clinton",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "stratum": "study-reported-game",
+    "sourceUrl": "https://ejournal1.unud.ac.id/index.php/ejl/en/article/download/6367/3566/33844",
+    "locator": "Results, Data 1, Dialogue; include the opening Man and comma.",
+    "switchShape": "single word / possible borrowing",
+    "note": "The study gives loco (‘crazy’) as an adjective inside an English clause. Study wording only; no game recording or script corroboration.",
+    "sha256": "86077da476880efea34e5814292b681f01bb12276db6dc7cee6573f2c1870c0d"
+  },
+  {
+    "id": "ref-lettie",
+    "work": "Warframe: 1999 · Lettie",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "stratum": "scripted-game",
+    "sourceUrl": "https://wiki.warframe.com/w/Leticia/Quotes",
+    "locator": "Gemini Skin → Gemini Switch Emote; line containing La Flaca. Omit the parenthesized English gloss.",
+    "switchShape": "prepositional phrase",
+    "note": "The Spanish preposition con (‘with’) and La Flaca, a name for Death, occupy one English complement. Community transcription.",
+    "sha256": "4e8a9c333879481841eeebeef7125904c4544053fdec86498bc68df7e2c33131"
+  },
+  {
+    "id": "ref-coco",
+    "work": "Coco · Un Poco Loco",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "stratum": "song-lyric",
+    "sourceUrl": "https://www.youtube.com/watch?v=yg8116aeD7E",
+    "locator": "DisneyMusicVEVO performance; first sung line beginning You make me. Sentence case; exclude music symbols and terminal punctuation.",
+    "switchShape": "predicate complement",
+    "note": "The Spanish phrase (‘a little crazy’) completes the English verb. Indexed from the captioned performance.",
+    "sha256": "134e4d52b4053480c84241ad6a239254b0267ad818cb29f7fa7a00bdf3d6436e"
+  },
+  {
+    "id": "ref-terminator",
+    "work": "Terminator 2: Judgment Day · T-800",
+    "languages": [
+      "es",
+      "en"
+    ],
+    "stratum": "scripted-film",
+    "sourceUrl": "https://www.afi.com/news/terminator-2-judgment-day-afi-movie-club/",
+    "locator": "AFI Movie Club, opening paragraph; climactic quote, including final period.",
+    "switchShape": "vocative / borderline",
+    "note": "The Spanish farewell stands alone; only the form of address is English. A tag-like contrast rather than an embedded argument.",
+    "sha256": "a91d19fcf558bc3f3273573acfb1d47796ce45a057f0ad7ab5c7da84fd1d4877"
+  },
+  {
+    "id": "ref-poplack",
+    "work": "Shana Poplack · Linguistics (1980)",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "stratum": "paper-title",
+    "sourceUrl": "https://doi.org/10.1515/ling.1980.18.7-8.581",
+    "locator": "Published title up to but not including the colon; preserve uppercase Spanish and the curly apostrophe as in Crossref.",
+    "switchShape": "coordinated clause",
+    "note": "The second clause means ‘and I finish in Spanish’. This is the wording of a paper title, not a new conversational observation.",
+    "sha256": "4862237938d7b1176b0beca5aae1595753932016c89a562d48e673391a887d3c"
+  },
+  {
+    "id": "ref-neon",
+    "work": "Valorant · Neon",
+    "languages": [
+      "en",
+      "tl"
+    ],
+    "stratum": "scripted-game",
+    "sourceUrl": "https://wiki.playvalorant.com/en-us/Neon/Quotes",
+    "locator": "Buy Phase → Round Start → Making a comeback; line containing lola. Keep the semicolon.",
+    "switchShape": "single word / possible borrowing",
+    "note": "Tagalog lola (‘grandmother’) follows an English possessive. Community transcription.",
+    "sha256": "4e39f8118c10f4822aee4a68f87805098297397113bcdacc62a4cce47a544c52"
+  },
+  {
+    "id": "ref-vieri",
+    "work": "Assassin’s Creed II · Vieri de’ Pazzi",
+    "languages": [
+      "en",
+      "it"
+    ],
+    "stratum": "scripted-game",
+    "sourceUrl": "https://game-scripts-wiki.blogspot.com/2022/04/assassins-creed-2-full-transcript.html",
+    "locator": "Vieri's question about Mario; first sentence only. Omit the parenthesized English gloss.",
+    "switchShape": "single word",
+    "note": "Italian ubriacone (‘drunkard’) sits between an English determiner and a name. Fan transcript.",
+    "sha256": "e213664f78bb9fffe7b6e3308f5984f629844dd1ae71653be7f9270ba715f74b"
+  },
+  {
+    "id": "ref-geet",
+    "work": "Jab We Met · Geet",
+    "languages": [
+      "hi",
+      "en"
+    ],
+    "stratum": "scripted-film",
+    "sourceUrl": "https://www.youtube.com/watch?v=fTjUKibDVek",
+    "locator": "First segment of the scene clip's title, before the first vertical bar; use its Roman spelling, title case and no end punctuation.",
+    "switchShape": "single word",
+    "note": "English favourite sits between Hindi apni and hoon (‘I’m my own favourite’). The fingerprint fixes the clip title’s romanization, not an official subtitle.",
+    "sha256": "058604b616f5aabeafcebc45fff781f6d2fc603e110606a982952fd677ef4167"
+  },
+  {
+    "id": "ref-lafayette",
+    "work": "Hamilton · Aaron Burr, Sir",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "stratum": "song-lyric",
+    "sourceUrl": "https://github.com/amandavisconti/ham4corpus/blob/master/All_Lyrics_Speakers",
+    "locator": "Lafayette’s first verse; the Tell the King command through the closing curly double quote. The transcription spells Casse toi without a hyphen.",
+    "switchShape": "quoted command",
+    "note": "French supplies the quoted message (‘get lost!’) inside an English instruction. The following question is excluded.",
+    "sha256": "e4b5104fe614642406fdf23eb6c4d1715b768f5992045d29586059b881a596c3"
+  },
+  {
+    "id": "ref-hk-schedule",
+    "work": "XboxAchievements · Hong Kong speech illustration 1",
+    "languages": [
+      "yue",
+      "en"
+    ],
+    "stratum": "forum-illustration",
+    "sourceUrl": "https://www.xboxachievements.com/forum/topic/347541-do-you-find-the-cantonese-enjoyable-or-annoying/",
+    "locator": "ImaginaryRuins, 23 September 2012, first quoted Cantonese example; ASCII question mark, no surrounding quotes.",
+    "switchShape": "two lexical insertions",
+    "note": "English check takes a Cantonese aspect marker; schedule supplies the noun. The commenter illustrates everyday speech, not Sleeping Dogs dialogue.",
+    "sha256": "5750dc4a49a52a155d60ef882956fb6ff446fd2bcc48ec274392a5b1b9330b68"
+  },
+  {
+    "id": "ref-hk-scan",
+    "work": "XboxAchievements · Hong Kong speech illustration 2",
+    "languages": [
+      "yue",
+      "en"
+    ],
+    "stratum": "forum-illustration",
+    "sourceUrl": "https://www.xboxachievements.com/forum/topic/347541-do-you-find-the-cantonese-enjoyable-or-annoying/",
+    "locator": "Same 23 September post, second quoted Cantonese example; ASCII question mark, no surrounding quotes.",
+    "switchShape": "two lexical insertions",
+    "note": "English scan and file are separated by a Cantonese classifier. This and the schedule example come from the same commenter.",
+    "sha256": "a769db23d1af6db8981c9d62a43456a72d3b92b1a6baff9443793df55b4c1e66"
+  },
+  {
+    "id": "ref-mobile-legends",
+    "work": "Mobile Legends · player chat",
+    "languages": [
+      "jv",
+      "id"
+    ],
+    "stratum": "player-chat",
+    "sourceUrl": "https://www.atlantis-press.com/article/125990475.pdf",
+    "locator": "Trisdasari et al., chat table row 5; first quoted string, excluding quotation marks, translation and player label.",
+    "switchShape": "conditional + imperative",
+    "note": "The Javanese condition (‘if you dare’) ends in an Indonesian command (‘don’t back down’). A study reports the player’s message; it is not an NPC line.",
+    "sha256": "d79b282a916a18253f65ca83c9642ba3b9f06aa061ae5e462aa27985b0a5930d"
+  }
+]

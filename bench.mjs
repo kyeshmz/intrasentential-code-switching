@@ -1,7 +1,12 @@
 import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
 
-const tracks = JSON.parse(readFileSync(new URL("cases.json", import.meta.url), "utf8"));
+const load = (path) => JSON.parse(readFileSync(new URL(path, import.meta.url), "utf8"));
+const tracks = {
+  ...load("cases.json"),
+  ...load("multilingual/cases.json"),
+  references: load("multilingual/references.json"),
+};
 const verdicts = ["Human", "Mixed", "AI", "Unscored"];
 const [command, track, file, ...extra] = process.argv.slice(2);
 
@@ -16,11 +21,12 @@ function readById(path, cases) {
 
 function main() {
   if (!Object.hasOwn(tracks, track) || extra.length || !["inputs", "score"].includes(command)) {
-    throw new Error("Usage: node bench.mjs inputs open | inputs sleeping-dogs LOCAL.jsonl | score TRACK PREDICTIONS.jsonl");
+    throw new Error(`Usage: node bench.mjs inputs TRACK [LOCAL.jsonl] | score TRACK PREDICTIONS.jsonl\nTracks: ${Object.keys(tracks).join(", ")}`);
   }
   const cases = tracks[track];
   if (command === "inputs") {
-    if (Boolean(file) !== (track === "sleeping-dogs")) throw new Error("Only sleeping-dogs requires a local source JSONL.");
+    const needsLocal = !Object.hasOwn(cases[0], "text");
+    if (needsLocal !== Boolean(file)) throw new Error(needsLocal ? `${track} requires a local source JSONL.` : `${track} already includes the input text.`);
     const local = file && readById(file, cases);
     const inputs = cases.map((c) => {
       const text = local ? local.get(c.id).text : c.text;
@@ -45,12 +51,12 @@ function main() {
     counts.scored = counts.Human + counts.Mixed + counts.AI;
     counts.total = counts.scored + counts.Unscored;
     counts.coverage = counts.scored / counts.total;
-    if (track === "open") {
+    if (stratum === "human" || stratum === "ai") {
       const correct = stratum === "human" ? counts.Human : counts.AI;
       counts.correctAmongScored = counts.scored ? correct / counts.scored : null;
     }
   }
-  console.log(JSON.stringify({ edition: "0.1", track, groups }, null, 2));
+  console.log(JSON.stringify({ edition: "0.2", track, groups }, null, 2));
 }
 
 try { main(); } catch (error) { console.error(error.message); process.exitCode = 1; }

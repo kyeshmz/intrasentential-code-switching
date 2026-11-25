@@ -14,6 +14,8 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 Scope: original benchmark code, documentation, metadata and project-generated
-AI examples in this directory. JECS text is CC BY 3.0; see README.md and
-the credit, license and changes fields on each JECS case. This grant does
-not cover the Sleeping Dogs dialogue or any other third-party source.
+AI examples in this repository. Third-party material retains its own terms:
+JECS text is CC BY 3.0; the included PSU forum excerpts and ASCEND transcripts
+are CC BY-SA 4.0; Hinglish-TOP queries are Apache-2.0. See multilingual/README.md
+and the per-case source credits. This grant does not cover game dialogue,
+film lines, lyrics, or other third-party sources.
