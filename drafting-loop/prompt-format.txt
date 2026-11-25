@@ -1,0 +1,1 @@
+Write in {language} with a genuine English phrase of at least two words embedded in every sentence, with {language} on both sides. Return exactly seven complete sentences, one per line, with no title, annotations, or commentary. Reply directly in this chat without tools or files.

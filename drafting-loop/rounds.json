@@ -1,0 +1,136 @@
+[
+  {
+    "round": 1,
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "replacement-request",
+      "centrifuge-handoff"
+    ],
+    "variants": {
+      "baseline": null,
+      "incumbent": "rules/current.txt",
+      "candidate": "rules/revised-v2.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "baseline": {
+        "AI": 10
+      },
+      "incumbent": {
+        "AI": 9,
+        "Human": 1
+      },
+      "candidate": {
+        "AI": 10
+      }
+    }
+  },
+  {
+    "round": 2,
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "water-shutoff"
+    ],
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "candidate": "rules/proposed-round-2.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 5
+      },
+      "candidate": {
+        "AI": 5
+      }
+    }
+  },
+  {
+    "round": 3,
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "carpool-change"
+    ],
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "candidate": "rules/proposed-round-3.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 3,
+        "Human": 2
+      },
+      "candidate": {
+        "AI": 4,
+        "Mixed": 1
+      }
+    }
+  },
+  {
+    "round": 4,
+    "generator": "claude-agent/opus#high",
+    "briefs": [
+      "poster-printing"
+    ],
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "candidate": "rules/proposed-round-4.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 5
+      },
+      "candidate": {
+        "AI": 5
+      }
+    }
+  },
+  {
+    "round": 5,
+    "generator": "claude-agent/opus#high",
+    "briefs": [
+      "kitchen-closing"
+    ],
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "candidate": "rules/proposed-round-5.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 5
+      },
+      "candidate": {
+        "AI": 5
+      }
+    }
+  },
+  {
+    "round": 6,
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "plant-sitting"
+    ],
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "candidate": "rules/proposed-round-6.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 5
+      },
+      "candidate": {
+        "AI": 5
+      }
+    }
+  }
+]

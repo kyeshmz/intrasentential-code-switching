@@ -1,0 +1,30 @@
+[
+  {
+    "id": "replacement-request",
+    "request": "Write a polite email body from a bilingual customer to the shop's support team. A desk lamp arrived on Monday with a cracked base. The lamp still turns on, but I have not used it since noticing the crack. I attached a photo of the damage, not a video. I would prefer a replacement rather than a refund. Please confirm whether I should keep the original packaging. If you need the serial number, tell me where to find it. Please reply by Friday because the shop's return window ends that day."
+  },
+  {
+    "id": "centrifuge-handoff",
+    "request": "Write a concise handoff message from a lab technician to the bilingual colleague taking the evening shift. At 3 p.m. the centrifuge in room 204 started making a grinding noise, so I stopped it and put a do-not-use sign on it. The six samples that were inside it are now in the blue rack on the second shelf of the fridge. Please run those samples on the backup centrifuge in room 210 before 6 p.m. If the backup centrifuge makes the same noise, stop it and email the facilities manager, not the lab head. A technician is booked to inspect the first centrifuge on Thursday morning. Leave the sign on it until the technician says it is safe to use."
+  },
+  {
+    "id": "water-shutoff",
+    "request": "Write a polite notice from the building manager to bilingual tenants. The water will be shut off on Thursday from 9 a.m. to noon so a plumber can replace the main valve in the basement. Fill a few bottles before 9 a.m. if you need water during that time. Do not run the dishwasher or washing machine while the water is off. When the water comes back, it may look cloudy for a few minutes, so let the tap run until it clears. If the water is still cloudy after ten minutes, call the building office. The laundry room will reopen at 1 p.m."
+  },
+  {
+    "id": "carpool-change",
+    "request": "Write a casual group-chat message from a parent to other bilingual parents in a school carpool. I cannot drive on Wednesday this week because of a work trip. Maya's dad offered to take my Wednesday pickup, so please send your kid with their booster seat that morning. Pickup time stays at 3:15 p.m. at the side gate. On Friday the school closes early, so pickup moves to 12:30 p.m. I can take the Friday pickup to make up for Wednesday. Reply here if your kid has an after-school club on Friday."
+  },
+  {
+    "id": "poster-printing",
+    "request": "Write a polite message from a graduate student to their bilingual advisor about a conference poster. I finished the poster draft and uploaded it to the shared drive this morning. The print shop needs the final file by Thursday at noon. Could you look at the results section before Wednesday evening? I shortened the methods section to fit the page, but I kept the sample size and the main figure. If you approve the poster, I will order the print and pick it up on Friday. The department reimburses printing costs if I submit the receipt within a week."
+  },
+  {
+    "id": "kitchen-closing",
+    "request": "Write a direct message from a restaurant shift lead to the bilingual cook closing tonight. The walk-in fridge door is not sealing well, so close it firmly and check it twice. Move the fish from the top shelf of the walk-in to the small fridge by the grill. Label anything you open tonight with today's date. The dish machine is running hot, so turn it off as soon as the last rack is done. Leave the floor drains uncovered so they dry overnight. If the walk-in reads above 5 degrees at closing, text me a photo of the thermometer."
+  },
+  {
+    "id": "plant-sitting",
+    "request": "Write a casual message from someone going away for a week to the bilingual friend who will water their plants. The spare key is under the blue pot by the door. Water the big fern on Monday and Thursday, about one cup each time. The cactus on the windowsill does not need any water this week. If the fern's leaves turn yellow, move it away from the window. Please bring in any packages so they are not left outside. Help yourself to the snacks in the kitchen cupboard."
+  }
+]

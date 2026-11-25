@@ -9,6 +9,8 @@ How does an authorship detector label text where a speaker changes languages **w
 
 The game track records what detectors **called** each excerpt. One is a reviewer's recollection, two are secondary quotations, and none is checked verbatim against the audio. The Cantonese expressions also overlap across cases. These three results are not an accuracy estimate for Cantonese–English. The Japanese track has known authorship but only three pairs and one generator. Do not pool the tracks: they differ in language, length, provenance and scoring unit.
 
+The [drafting-loop track](drafting-loop/README.md) adds fully AI-written seven-sentence messages in Japanese, Spanish, Mandarin, French, and Korean with English insertions. Each carries its Pangram 4.1 label and the drafting rules that produced it. It has no human texts and is not scored by `bench.mjs`.
+
 ## Try it offline
 
 From this directory, with Node.js 22+:
