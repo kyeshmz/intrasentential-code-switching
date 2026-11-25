@@ -4,7 +4,7 @@ Fully AI-written messages with an English phrase of two or more words inside eve
 
 Climb rounds wrote one brief in all five languages with two rule sets: the current rules and a candidate proposed by the previous round. Round 1 also had a no-rules baseline and two briefs. A candidate replaced the current rules only if it got more `Human` labels without losing structure passes. No candidate did.
 
-Rounds with `mode: "arms"` in [rounds.json](rounds.json) are an ablation. Each one runs the current rules, five versions with one rule removed (`rules/arm-minus-N.txt`), and a casual-register version (`rules/arm-casual.txt`) on one unseen brief. Counts are pooled across those rounds instead of deciding per round.
+Rounds with `mode: "arms"` in [rounds.json](rounds.json) run fixed rule sets, and counts are pooled within each `phase` instead of deciding per round. Phase `ablation` (rounds 24 to 33) runs the current rules, five versions with one rule removed (`rules/arm-minus-N.txt`), and a casual-register version (`rules/arm-casual.txt`) on one unseen brief per round. Phase `brief-probe` (rounds 34 and 35) runs only the current rules on 7 briefs per round that vary one thing at a time; each brief's `probe` field in [briefs.json](briefs.json) says what. Phase `anchor-term` (from round 36) runs the current rules against `rules/arm-anchor.txt`, which asks for one English term reused in at least three sentences, on exact replicates of briefs that earlier got no `Human` or `Mixed` label.
 
 | File | Contents |
 |---|---|

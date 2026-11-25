@@ -520,6 +520,7 @@
   {
     "round": 24,
     "mode": "arms",
+    "phase": "ablation",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "guitar-lesson"
@@ -614,6 +615,7 @@
   {
     "round": 25,
     "mode": "arms",
+    "phase": "ablation",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "wedding-rsvp"
@@ -707,6 +709,7 @@
   {
     "round": 26,
     "mode": "arms",
+    "phase": "ablation",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "server-maintenance"
@@ -803,6 +806,7 @@
   {
     "round": 27,
     "mode": "arms",
+    "phase": "ablation",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "trip-permission"
@@ -896,6 +900,7 @@
   {
     "round": 28,
     "mode": "arms",
+    "phase": "ablation",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "coworking-desk"
@@ -989,6 +994,7 @@
   {
     "round": 29,
     "mode": "arms",
+    "phase": "ablation",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "laundry-room"
@@ -1090,6 +1096,7 @@
   {
     "round": 30,
     "mode": "arms",
+    "phase": "ablation",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "haircut-reschedule"
@@ -1184,6 +1191,7 @@
   {
     "round": 31,
     "mode": "arms",
+    "phase": "ablation",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "airport-ride"
@@ -1277,6 +1285,7 @@
   {
     "round": 32,
     "mode": "arms",
+    "phase": "ablation",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "interview-schedule"
@@ -1370,6 +1379,7 @@
   {
     "round": 33,
     "mode": "arms",
+    "phase": "ablation",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "park-cleanup"
@@ -1464,6 +1474,7 @@
   {
     "round": 34,
     "mode": "arms",
+    "phase": "brief-probe",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "water-shutoff-replicate",
@@ -1499,6 +1510,7 @@
   {
     "round": 35,
     "mode": "arms",
+    "phase": "brief-probe",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "trash-room",
