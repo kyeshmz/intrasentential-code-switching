@@ -345,5 +345,26 @@
         "AI": 5
       }
     }
+  },
+  {
+    "round": 17,
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "study-room-move"
+    ],
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "candidate": "rules/proposed-round-17.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 5
+      },
+      "candidate": {
+        "AI": 5
+      }
+    }
   }
 ]

@@ -66,5 +66,9 @@
   {
     "id": "bike-shop-pickup",
     "request": "Write a polite message from a bicycle repair shop to a bilingual customer. The customer's bike is ready for pickup after the brake repair. We also replaced the rear tire because it had a deep cut, as discussed on the phone. The total is the same as the estimate we gave. The shop is open until 6 p.m. on weekdays and until 4 p.m. on Saturday. Please bring the claim ticket when you come. If you cannot pick it up within a week, let us know so we can keep it in storage."
+  },
+  {
+    "id": "study-room-move",
+    "request": "Write a casual group-chat message from a student to bilingual classmates in a study group. Tomorrow's session moves from the library to the student center because the library is closing early. We will meet in room 3B on the second floor at 6 p.m. Bring the practice exam we got on Monday. I will bring the answer key that the teaching assistant posted. We will go through questions 1 to 10 first, then split up the rest. If the room is taken, wait for me at the café downstairs."
   }
 ]
