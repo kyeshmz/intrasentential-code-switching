@@ -169,5 +169,40 @@
     "id": "office-kitchen-twin",
     "probe": "laundry-room sentence structure, office kitchen and staff instead of residents",
     "request": "Write a polite notice from an office manager to bilingual staff about the office kitchen. The second microwave is broken, and a repair technician comes next Tuesday. Until then, please limit each use to three minutes. Clean the microwave plate after every use. Do not leave food in the fridge overnight. The office kitchen still closes at 8 p.m. If the vending machine eats your coins, write your desk number on the form by the door."
+  },
+  {
+    "id": "trash-room",
+    "probe": "new building-manager notice about a shared space",
+    "request": "Write a polite notice from a building manager to bilingual residents about the trash room. Starting Monday, recycling pickup moves to Wednesday morning. Rinse bottles and cans before you put them in the blue bins. Flatten cardboard boxes and stack them next to the bins, not on the floor. Food waste goes in the green bin, and the lid must stay closed. Do not leave furniture or other bulky items in the trash room; book a bulk pickup at the front desk instead. The trash room door now locks at 11 p.m."
+  },
+  {
+    "id": "elevator-inspection",
+    "probe": "new building-manager notice about a shared space",
+    "request": "Write a polite notice from a building manager to bilingual residents about the elevator. The east elevator will be out of service on Wednesday from 9 a.m. to 4 p.m. for its yearly inspection. Please use the west elevator or the stairs during that time. If you have a delivery or are moving furniture, schedule it for another day. Residents who need help with the stairs can call the front desk, and staff will help carry groceries. The new inspection certificate will be posted in the lobby afterward."
+  },
+  {
+    "id": "garage-cleaning",
+    "probe": "new building-manager notice about a shared space",
+    "request": "Write a polite notice from a building manager to bilingual residents about the parking garage. The parking garage will be power-washed next Monday and Tuesday from 8 a.m. to 5 p.m. Levels 1 and 2 are cleaned on Monday, and levels 3 and 4 on Tuesday. Move your car to another level or to the street before 8 a.m. on your level's day. Cars left on a level being cleaned may be towed at the owner's cost. Guest parking stays open both days. Keep your parking permit visible on the dashboard."
+  },
+  {
+    "id": "rooftop-grill",
+    "probe": "new building-manager notice about a shared space",
+    "request": "Write a polite notice from a building manager to bilingual residents about the rooftop grill area. The rooftop grill area opens for the season this Saturday. Reserve a grill through the resident app, for up to two hours per booking. Clean the grill and wipe down the table when you finish. Glass bottles are not allowed on the roof. Guests must stay with the resident who booked. The roof closes at 10 p.m., and the door locks automatically after that."
+  },
+  {
+    "id": "mailroom-lockers",
+    "probe": "new building-manager notice about a shared space",
+    "request": "Write a polite notice from a building manager to bilingual residents about the mailroom. We installed new package lockers in the mailroom. When a package arrives, you will get a text with a pickup code. Enter the code on the screen to open your locker. Pick up your package within three days, or it goes back to the front desk. Packages too large for a locker will still be held at the front desk. Do not share your pickup code with anyone else."
+  },
+  {
+    "id": "quiet-hours",
+    "probe": "new building-manager notice, no shared space",
+    "request": "Write a polite notice from a building manager to bilingual residents about the quiet hours. Quiet hours are from 10 p.m. to 8 a.m. on weekdays and from 11 p.m. to 9 a.m. on weekends. Please keep music and TV volume low during those hours. Put felt pads under chair legs if you have hard floors. Moving furniture and using power tools are only allowed between 9 a.m. and 6 p.m. If a neighbor is too loud, contact the front desk instead of knocking on their door. Repeated complaints may lead to a written warning."
+  },
+  {
+    "id": "dryer-report",
+    "probe": "laundry-room topic, sender reversed (resident to manager)",
+    "request": "Write a polite message from a resident to the bilingual building manager about the laundry room. The second dryer has stopped heating, and clothes come out wet after an hour. It also took four quarters this morning without starting. My unit number is 4B. Could you let me know when it will be fixed? Until then, is it OK to use the dryer in the other building? I can show the technician which machine it is if that helps."
   }
 ]

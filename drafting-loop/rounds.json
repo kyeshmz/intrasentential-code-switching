@@ -1495,5 +1495,40 @@
         "Mixed": 4
       }
     }
+  },
+  {
+    "round": 35,
+    "mode": "arms",
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "trash-room",
+      "elevator-inspection",
+      "garage-cleaning",
+      "rooftop-grill",
+      "mailroom-lockers",
+      "quiet-hours",
+      "dryer-report"
+    ],
+    "pooledThisRound": {
+      "incumbent": {
+        "rounds": 2,
+        "drafts": 70,
+        "structure": 69,
+        "human": 19,
+        "mixed": 5
+      }
+    },
+    "variants": {
+      "incumbent": "rules/current.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 25,
+        "Human": 9,
+        "Mixed": 1
+      }
+    }
   }
 ]
