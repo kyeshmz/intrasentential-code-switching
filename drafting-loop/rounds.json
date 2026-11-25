@@ -1583,5 +1583,47 @@
         "AI": 15
       }
     }
+  },
+  {
+    "round": 37,
+    "mode": "arms",
+    "phase": "anchor-term",
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "airport-ride-replicate",
+      "interview-schedule-replicate",
+      "centrifuge-handoff-replicate"
+    ],
+    "pooledThisRound": {
+      "incumbent": {
+        "rounds": 2,
+        "drafts": 30,
+        "structure": 30,
+        "human": 0,
+        "mixed": 0
+      },
+      "anchor": {
+        "rounds": 2,
+        "drafts": 30,
+        "structure": 30,
+        "human": 0,
+        "mixed": 1
+      }
+    },
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "anchor": "rules/arm-anchor.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 15
+      },
+      "anchor": {
+        "AI": 14,
+        "Mixed": 1
+      }
+    }
   }
 ]
