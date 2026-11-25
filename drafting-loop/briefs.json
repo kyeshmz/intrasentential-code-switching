@@ -38,5 +38,9 @@
   {
     "id": "rehearsal-move",
     "request": "Write a casual group-chat message from a band member to bilingual bandmates. Saturday's rehearsal moves from the usual studio to the drummer's garage because the studio double-booked us. The start time is still 4 p.m. Bring your own amp cables, since the garage has no spares. We will run the three new songs first, then the full set for next week's gig. Street parking is free after 3 p.m. If you cannot make it, tell us by Friday night so we can plan the set without you."
+  },
+  {
+    "id": "gym-class-change",
+    "request": "Write a casual group-chat message from a fitness instructor to bilingual class members. Thursday's 7 p.m. spin class moves to studio B because studio A's air conditioning is broken. The class still starts at 7 p.m. sharp. Bring your own water bottle, since the fountain in studio B is out of order. The bikes in studio B have different pedals, so wear regular sneakers instead of clip-in shoes. If you booked a bike online, your spot is saved. Message me by Wednesday night if you need to cancel."
   }
 ]

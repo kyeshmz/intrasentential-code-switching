@@ -195,5 +195,26 @@
         "AI": 5
       }
     }
+  },
+  {
+    "round": 10,
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "gym-class-change"
+    ],
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "candidate": "rules/proposed-round-10.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 5
+      },
+      "candidate": {
+        "AI": 5
+      }
+    }
   }
 ]
