@@ -1,0 +1,6 @@
+1. Start with what the reader needs to know in {language}. Put actions in an order that makes sense. Introduce a file, place, or person before referring back to it.
+2. Keep {language} as the grammatical base. Choose an English phrase the audience might actually use and attach it using the surrounding language's own grammar. Do not count a name, acronym, or isolated English word as a switch.
+3. Keep the meaning exact. Preserve timing, quantities, conditions, and what each term refers to. Translate part of an English term only if the remainder is still a natural phrase and the instruction is unchanged.
+4. Match the reader's relationship to the writer. Start with the task, skip filler, and repeat a useful term rather than renaming the same thing. Do not invent details or add fake mistakes to sound casual.
+5. Before returning the draft, read it as the recipient. Check that the action and conditions are clear and that every sentence has a natural switch. If an English phrase sounds forced, move the switch rather than adding a throwaway phrase.
+6. Vary how the sentences are built. Mix short, direct lines with longer ones that carry a reason or condition. Do not start consecutive sentences the same way, and do not put the English phrase in the same position every time.

@@ -70,5 +70,9 @@
   {
     "id": "study-room-move",
     "request": "Write a casual group-chat message from a student to bilingual classmates in a study group. Tomorrow's session moves from the library to the student center because the library is closing early. We will meet in room 3B on the second floor at 6 p.m. Bring the practice exam we got on Monday. I will bring the answer key that the teaching assistant posted. We will go through questions 1 to 10 first, then split up the rest. If the room is taken, wait for me at the café downstairs."
+  },
+  {
+    "id": "hotel-early-checkin",
+    "request": "Write a polite email from a bilingual traveler to a hotel about an upcoming stay. I have a reservation for three nights starting next Thursday. My flight lands at 8 a.m., so I would like to ask whether early check-in is possible. If the room is not ready, could I leave my luggage at the front desk? I also requested a quiet room away from the elevator when I booked. Please confirm whether breakfast is included in my rate. I will be traveling with a work laptop and need a desk in the room."
   }
 ]

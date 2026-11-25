@@ -366,5 +366,26 @@
         "AI": 5
       }
     }
+  },
+  {
+    "round": 18,
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "hotel-early-checkin"
+    ],
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "candidate": "rules/proposed-round-18.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 5
+      },
+      "candidate": {
+        "AI": 5
+      }
+    }
   }
 ]
