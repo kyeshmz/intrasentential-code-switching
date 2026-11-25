@@ -1,6 +1,7 @@
 [
   {
     "round": 1,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "replacement-request",
@@ -28,6 +29,7 @@
   },
   {
     "round": 2,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "water-shutoff"
@@ -49,6 +51,7 @@
   },
   {
     "round": 3,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "carpool-change"
@@ -72,6 +75,7 @@
   },
   {
     "round": 4,
+    "mode": "climb",
     "generator": "claude-agent/opus#high",
     "briefs": [
       "poster-printing"
@@ -93,6 +97,7 @@
   },
   {
     "round": 5,
+    "mode": "climb",
     "generator": "claude-agent/opus#high",
     "briefs": [
       "kitchen-closing"
@@ -114,6 +119,7 @@
   },
   {
     "round": 6,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "plant-sitting"
@@ -135,6 +141,7 @@
   },
   {
     "round": 7,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "release-delay"
@@ -156,6 +163,7 @@
   },
   {
     "round": 8,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "clinic-reschedule"
@@ -177,6 +185,7 @@
   },
   {
     "round": 9,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "rehearsal-move"
@@ -198,6 +207,7 @@
   },
   {
     "round": 10,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "gym-class-change"
@@ -219,6 +229,7 @@
   },
   {
     "round": 11,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "apartment-viewing"
@@ -240,6 +251,7 @@
   },
   {
     "round": 12,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "potluck-signup"
@@ -261,6 +273,7 @@
   },
   {
     "round": 13,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "library-return"
@@ -282,6 +295,7 @@
   },
   {
     "round": 14,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "package-roommate"
@@ -305,6 +319,7 @@
   },
   {
     "round": 15,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "volunteer-shift"
@@ -326,6 +341,7 @@
   },
   {
     "round": 16,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "bike-shop-pickup"
@@ -348,6 +364,7 @@
   },
   {
     "round": 17,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "study-room-move"
@@ -369,6 +386,7 @@
   },
   {
     "round": 18,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "hotel-early-checkin"
@@ -390,6 +408,7 @@
   },
   {
     "round": 19,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "team-lunch"
@@ -411,6 +430,7 @@
   },
   {
     "round": 20,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "dog-sitter"
@@ -432,6 +452,7 @@
   },
   {
     "round": 21,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "client-call"
@@ -453,6 +474,7 @@
   },
   {
     "round": 22,
+    "mode": "climb",
     "generator": "claude-agent/opus#xhigh",
     "briefs": [
       "bakery-order"
@@ -467,6 +489,28 @@
       "incumbent": {
         "AI": 4,
         "Mixed": 1
+      },
+      "candidate": {
+        "AI": 5
+      }
+    }
+  },
+  {
+    "round": 23,
+    "mode": "climb",
+    "generator": "claude-agent/opus#xhigh",
+    "briefs": [
+      "garage-sale"
+    ],
+    "variants": {
+      "incumbent": "rules/current.txt",
+      "candidate": "rules/proposed-round-23.txt"
+    },
+    "promoted": false,
+    "winner": "rules/current.txt",
+    "labels": {
+      "incumbent": {
+        "AI": 5
       },
       "candidate": {
         "AI": 5

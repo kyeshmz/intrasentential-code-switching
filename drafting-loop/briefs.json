@@ -90,5 +90,9 @@
   {
     "id": "bakery-order",
     "request": "Write a polite message from a customer to a bilingual bakery owner about a cake order. I would like to order a chocolate cake for twelve people for Saturday afternoon. Please write \"Happy 60th, Dad\" on top in white icing. One guest is allergic to peanuts, so the cake must not contain any nuts. I can pick it up at 2 p.m. If you need a deposit, I can pay it when I stop by on Thursday. Please let me know the total price before then."
+  },
+  {
+    "id": "garage-sale",
+    "request": "Write a casual group-chat message from a neighbor to bilingual neighbors about a shared garage sale. The sale is this Saturday from 8 a.m. to 1 p.m. on our street. Put a price sticker on each item before you bring it out. Tables go on the sidewalk, but leave the driveways clear for cars. Anything left at 1 p.m. goes to the donation truck that comes at 2 p.m. Bring small bills and coins for change. Reply here if you want me to add your house to the map we are posting."
   }
 ]

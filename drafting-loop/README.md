@@ -1,8 +1,10 @@
 # Drafting-loop track
 
-Fully AI-written messages with an English phrase of two or more words inside every sentence of a Japanese, Spanish, Mandarin, French, or Korean base. 240 drafts from 22 rounds, each labeled once by Pangram 4.1: 230 `AI`, 6 `Human`, 4 `Mixed`.
+Fully AI-written messages with an English phrase of two or more words inside every sentence of a Japanese, Spanish, Mandarin, French, or Korean base. 250 drafts from 23 rounds, each labeled once by Pangram 4.1: 240 `AI`, 6 `Human`, 4 `Mixed`.
 
-Each round wrote one brief in all five languages with two rule sets: the current rules and a candidate proposed by the previous round. Round 1 also had a no-rules baseline and two briefs. A candidate replaced the current rules only if it got more `Human` labels without losing structure passes. No candidate did.
+Climb rounds wrote one brief in all five languages with two rule sets: the current rules and a candidate proposed by the previous round. Round 1 also had a no-rules baseline and two briefs. A candidate replaced the current rules only if it got more `Human` labels without losing structure passes. No candidate did.
+
+Rounds with `mode: "arms"` in [rounds.json](rounds.json) are an ablation. Each one runs the current rules, five versions with one rule removed (`rules/arm-minus-N.txt`), and a casual-register version (`rules/arm-casual.txt`) on one unseen brief. Counts are pooled across those rounds instead of deciding per round.
 
 | File | Contents |
 |---|---|
